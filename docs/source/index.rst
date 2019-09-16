@@ -1,7 +1,7 @@
 .. image:: nsa.png
 
-No Skids Allowed! A Pentesting Primer
-=====================================
+No Skids Allowed! A Pentester's Primer
+======================================
 
 .. warning::
 
