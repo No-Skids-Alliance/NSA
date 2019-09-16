@@ -1,5 +1,8 @@
 .. image:: nsa.png
 
+No Skids Allowed! A Pentesting Primer
+=====================================
+
 .. warning::
 
     The contents of this compendium are provided as educational and reference material for those interested in **legal** hacking. They are not intended to promote nor encourage illegal activities. The creators of this guide are not responsible for the actions of its readers.
