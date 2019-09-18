@@ -26,7 +26,7 @@ If we apply the same liberal brush to the term "script kiddie," we could say tha
 
 We're all skids at first. We're born skids, dependent on the world and people around us, and utterly clueless as to how any of it works. But as we learn, we grow, until we're not so skiddish anymore. And that's the secret: To stop being a skid, all you gotta do is `learn more`.
 
-That's what **No Skids Allowed!** is all about. It's not about skid-shaming, it's about learning and improving and growing, so that one day, at least in one way, we might rightfully call ourselves "hackers." It's a promise to yourself that you won't ever stop learning.
+That's what **No Skids Allowed!** is all about. It's not about skid-shaming, it's about learning and improving and growing, so that one day, at least in one way, we might proudly call ourselves "hackers." It's a promise to yourself that you won't ever stop learning.
 
 If you ever get down on yourself because you feel like a skid... Just remember:
 
