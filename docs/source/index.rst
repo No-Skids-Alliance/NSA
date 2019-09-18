@@ -17,7 +17,7 @@ Contents
 .. toctree::
    :maxdepth: 2
 
-   content/placeholder.rst
+   content/0-introduction.rst
 
 
 Indices and tables
