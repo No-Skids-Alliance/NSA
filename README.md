@@ -1,4 +1,4 @@
-![No Skids Allowed!](https://i.imgur.com/nFOAbcU.png)
+![No Skids Allowed!](https://i.imgur.com/PkdLSXS.png)
 
 ## Promoting InfoSec education through documentation.
 
