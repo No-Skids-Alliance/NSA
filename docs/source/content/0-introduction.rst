@@ -1,16 +1,9 @@
 Introduction
 ============
 
-`From Wikipedia`_:
-  In programming and hacking culture, a script kiddie, skiddie, or skid is an unskilled individual who uses scripts or programs developed by others to attack computer systems and networks [...]. It is generally assumed that most script kiddies [...] lack the ability to write sophisticated programs or exploits on their own [...]. The term is considered to be derogatory.
+In common usage, a `script kiddie` (or `skid`) is an unskilled individual who uses other people's tools and exploits without understanding how or why they work, all the while calling themselves a "hacker."
 
-.. _From Wikipedia: https://en.wikipedia.org/wiki/Script_kiddie
-
-I'd like to get something off my chest. It's something I've been struggling with for years, and it's time I spoke up. So, here goes:
-
-`I'm a script kiddie.`
-
-Whew! Feels good to get that out there. I'll say it again: I'm a skid! And that's okay. You're one, too. So is everybody. Now, before some super 1337 h4x0r comes pounding down my digital door in a huff, let me ask: Is there anything in your life that you take for granted, without really understanding how it works?
+Is there anything in your life that you take for granted, without really understanding how it works?
 
 I drive my car every day, but I don't know squat about cars. I mean, I know they need air in the tires, gas in the tank, and regular oil changes, but I couldn't tell a crank shaft from a spark plug.
 
@@ -26,15 +19,11 @@ If we apply the same liberal brush to the term "script kiddie," we could say tha
 
 We're all skids at first. We're born skids, dependent on the world and people around us, and utterly clueless as to how any of it works. But as we learn, we grow, until we're not so skiddish anymore. And that's the secret: To stop being a skid, all you gotta do is `stay curious`, and `keep learning`.
 
-That's what **No Skids Allowed!** is all about. It's not about skid-shaming, it's about learning and improving and growing, and keeping each other accountable, so that one day we might proudly call ourselves "hackers."
+That's what **No Skids Allowed!** is all about. It's not about skid-shaming, it's about learning and improving and growing, and keeping each other accountable, so that we might accurately call ourselves "hackers."
 
 It's not an easy path. Learning can be quite challenging, especially when the topic is as complex and diverse as Information Security. Whoever said "do what you love, and you'll never work a day in your life" clearly wasn't a hacker... Even the most passionate and skilled professional knows that attaining mastery over a skill takes perseverance and strength of will. And sometimes, no matter how good you are, you're just going to have a rough day.
 
-It's totally fine to be an amateur, to make mistakes, to lack knowledge and skill. If you haven't failed, _you haven't tried._
-
-The three most important skills any hacker can develop, in my opinion, are: the perseverance to stay strong in the face of opposition; the patience to do a job well, not just quickly; and the self-awareness and self-respect to recognize one's limitations, and to know when to push them and when to take a break. (Burn-out is real! Respect yourself!)
-
-**If you're ever feeling like you're in over your head, just remember the wise words of Jake the Dog**:
+It's totally fine to be an amateur, to make mistakes, to lack knowledge and skill. If you haven't failed, `you haven't tried.` If you're ever feeling like you're in over your head, just remember the wise words of **Jake the Dog**:
 
 .. image:: images/jake.png
 
