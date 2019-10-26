@@ -19,9 +19,9 @@ import rtcat_sphinx_theme
 
 # -- Project information -----------------------------------------------------
 
-project = 'No Skids Allowed!'
-copyright = '2019, No Skids Alliance'
-author = 'No Skids Alliance'
+project = "No Skids Allowed! A Pentester's Primer"
+copyright = '2019, Christopher M. Steffen'
+author = 'Christopher M. Steffen'
 
 
 # -- General configuration ---------------------------------------------------

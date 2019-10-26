@@ -15,13 +15,13 @@ That's what **No Skids Allowed!** is all about. It's not about skid-shaming, it'
 
 It's not an easy path. Learning can be quite challenging, especially when the topic is as complex and diverse as Information Security. Whoever said, "Do what you love, and you'll never work a day in your life" clearly wasn't a hacker... Even the most passionate and skilled professional knows that attaining mastery over a skill takes perseverance and strength of will. And sometimes, no matter how good you are, you're just going to have a rough day.
 
-It's totally fine to be an amateur, to make mistakes, to lack knowledge and skill. If you haven't failed, `you haven't tried.` If you're ever feeling like you're in over your head, just remember the wise words of **Jake the Dog**:
+It's totally fine to be an amateur, to make mistakes, to lack knowledge and skill. If you haven't failed, `you haven't tried.` And if you ever feel like you're in over your head, just remember the wise words of **Jake the Dog**:
 
 .. figure:: images/jake.png
    :width: 300 px
    :align: center
    :alt: Sucking at something is the first step to becoming sorta good at something.
 
-   Image source: `Adventure Time by Pendleton Ward`_
+   Image and quote from `Adventure Time by Pendleton Ward`_
 
 .. _Adventure Time by Pendleton Ward: https://en.wikipedia.org/wiki/Adventure_Time

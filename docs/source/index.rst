@@ -1,4 +1,5 @@
 .. image:: nsa.png
+   :align: center
 
 No Skids Allowed! A Pentester's Primer
 ======================================
@@ -13,6 +14,8 @@ No Skids Allowed! A Pentester's Primer
 
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Table of Contents
+   :maxdepth: 4
 
    content/0-introduction.rst
+   content/1-foundations.rst
