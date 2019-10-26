@@ -18,4 +18,3 @@ No Skids Allowed! A Pentester's Primer
    :maxdepth: 4
 
    content/0-introduction.rst
-   content/1-foundations.rst
