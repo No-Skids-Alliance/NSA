@@ -12,8 +12,6 @@ No Skids Allowed! A Pentester's Primer
     This guide is kept as up-to-date as possible. However, with the rate of change and progress in the InfoSec community, tools and command syntax sometimes change. We try to stay on top of things, but when we falter, your Google-fu will save the day.
 
 
-Contents
-========
 .. toctree::
    :maxdepth: 2
 
