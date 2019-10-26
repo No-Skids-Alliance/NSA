@@ -1,15 +1,9 @@
 Introduction
 ============
 
-In common usage, a `script kiddie` (or `skid`) is an unskilled individual who uses other people's tools and exploits without understanding how or why they work, all the while calling themself a "hacker." It's a pejorative; one should never aspire to be a skid. But the term is sometimes used as a form of gate-keeping, putting down novice "wannabe" hackers for lacking knowledge they've had no chance to obtain.
+In common usage, a `script kiddie` (or `skid`) is an unskilled individual who uses other people's tools and exploits without understanding how or why they work, all the while calling themself a "hacker." The term is sometimes used as a form of gate-keeping, putting down novice "wannabe" hackers for lacking knowledge they've had no chance to obtain.
 
-Is there anything in your life that you take for granted, without really understanding how it works?
-
-I drive my car every day, but I don't know squat about cars. I mean, I know they need air in the tires, gas in the tank, and regular oil changes, but I couldn't tell a crank shaft from a spark plug.
-
-I use my microwave to make my popcorn. Do I know anything about how microwaves work? Barely. It's, like, 99% magic. Throw in seeds, push a button, and popcorn appears. Voila!
-
-I use other people's inventions every single day without ever knowing how they work. Granted, I'm not bragging to my friends every time I make a bag of popcorn, nor claiming to be a mechanic when I get my oil changed, but the fact remains: in many aspects of life, I'm a total skid. `And that's okay.`
+Is there anything in your life that you take for granted, without really understanding how it works? I drive my car every day, but I'm no mechanic. I couldn't tell you how microwaves work, but I use them to make popcorn. I use other people's inventions every day without ever knowing how they work. I don't pretend to be a mechanic when I change my oil, nor a physicist when I make popcorn, but the fact remains: in many aspects of life, I'm a total skid. `And that's okay.`
 
 In the `Hacker Jargon File`_, a `hacker` is "an expert or enthusiast of any kind," or "one who enjoys the intellectual challenge of creatively overcoming or circumventing limitations." If we apply the same liberal brush to the term "script kiddie," we could say that a skid is someone who takes advantage of systems in their environment without any deeper understanding or appreciation for how those systems function.
 
@@ -23,8 +17,11 @@ It's not an easy path. Learning can be quite challenging, especially when the to
 
 It's totally fine to be an amateur, to make mistakes, to lack knowledge and skill. If you haven't failed, `you haven't tried.` If you're ever feeling like you're in over your head, just remember the wise words of **Jake the Dog**:
 
-.. image:: images/jake.png
+.. figure:: images/jake.png
+   :width: 300 px
+   :align: center
+   :alt: Sucking at something is the first step to becoming sorta good at something.
 
-`Image source:` `Adventure Time by Pendleton Ward`_
+   Image source: `Adventure Time by Pendleton Ward`_
 
 .. _Adventure Time by Pendleton Ward: https://en.wikipedia.org/wiki/Adventure_Time

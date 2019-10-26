@@ -16,11 +16,3 @@ No Skids Allowed! A Pentester's Primer
    :maxdepth: 2
 
    content/0-introduction.rst
-
-
-Indices and tables
-------------------
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
