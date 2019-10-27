@@ -10,17 +10,24 @@ exploit
 
 hack
   1. To write (software) or modify (software or hardware) in a clever or skillful way.
-  2. To circumvent security and break into a (network, computer, file, etc.), usually with malicious intent.
+  2. To gain unauthorized access to computer files, systems, and/or networks.
   3. A clever or skillfully-crafted piece of software or hardware, or a clever or skillful technique.
 
 .. index:: !hack
 
 
 hacker
-  1. an expert or enthusiast of any kind
-  2. one who enjoys the intellectual challenge of creatively overcoming or circumventing limitations
+  1. An expert or enthusiast of any kind.
+  2. One who enjoys the intellectual challenge of creatively overcoming or circumventing limitations.
+  3. A person who uses technology to gain unauthorized access to computer files, systems, and/or networks.
 
 .. index:: !hacker
+
+
+hacktivism
+  Using hacking techniques and skills to gain unauthorized access to computer files, systems, and/or networks, in order to further social or political ends.
+
+.. index:: !hacktivism
 
 
 penetration test / pentest
