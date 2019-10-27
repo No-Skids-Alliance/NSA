@@ -13,7 +13,7 @@ No Skids Allowed! A Pentester's Primer
 
 .. toctree::
    :caption: Table of Contents
-   :maxdepth: 4
+   :maxdepth: 3
 
    content/0-introduction/_index.rst
    content/1-fundamentals/_index.rst

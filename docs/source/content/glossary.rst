@@ -42,6 +42,12 @@ penetration tester / pentester
 .. index:: !penetration tester
 
 
+report
+  In the context of a penetration test, the report is a written document containing vulnerabilities, exploits, mitigations and advice, provided by the penetration tester to the client.
+
+.. index:: !report
+
+
 scope
   The systems, locations, techniques and tools which can be used in a specific `penetration test`.
 
