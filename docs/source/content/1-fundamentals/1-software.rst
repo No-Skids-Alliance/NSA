@@ -8,3 +8,4 @@ Every :index:`hacker` has their own unique approach to the craft, and a unique t
    :caption: Section Contents
 
    1-software/0-OS.rst
+   1-software/1-Programming.rst

@@ -30,6 +30,12 @@ hacktivism
 .. index:: !hacktivism
 
 
+malware
+  Software designed to disrupt, damage, or gain unauthorized access to computer systems.
+
+.. index:: !malware
+
+
 penetration test / pentest
   The use of adversarial tactics to simulate an attack against systems, networks, individuals or groups, with the intent of revealing and mitigating vulnerabilities.
 
@@ -42,8 +48,14 @@ penetration tester / pentester
 .. index:: !penetration tester
 
 
+Remote-Access Trojan / RAT
+  A malware program used by intruders to remotely control target systems.
+
+.. index:: !Remote-Access Trojan (RAT)
+
+
 report
-  In the context of a penetration test, the report is a written document containing vulnerabilities, exploits, mitigations and advice, provided by the penetration tester to the client.
+  In the context of a penetration test, a written document containing vulnerabilities, exploits, mitigation and advice, created by the penetration tester for the client.
 
 .. index:: !report
 
