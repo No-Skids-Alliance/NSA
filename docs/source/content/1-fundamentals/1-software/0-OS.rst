@@ -37,12 +37,12 @@ Windows VMs aren't just useful for offensive operations, however. Hackers often 
 .. _Windows Virtual Machines: https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
 
 
-Apple OS X
-----------
+Apple macOS
+-----------
 
-Based on the Berkeley Systems Distribution (BSD), Apple's OS X has gained a large following among hackers and non-hackers alike. It's a popular choice for host OS, thanks to stability, speed, and personal preference. However, OS X is not commonly used as a guest VM, largely due to the technical and legal complications involved. This hasn't prevented hackers from using OS X in their pentests, but it has limited the availability of OS X to those willing to purchase a Mac (or pirate the OS).
+Based on the Berkeley Software Distribution (BSD), Apple's macOS has gained a large following among hackers and non-hackers alike. It's a popular choice for host OS, thanks to stability, speed, and personal preference. However, macOS is not commonly used as a guest VM, largely due to the technical and legal complications involved. This hasn't prevented hackers from using macOS in their pentests, but it has limited the availability of macOS to those willing to purchase a Mac (or pirate the OS).
 
-For hackers looking to use OS X as the foundation of their toolkit, instead of simply using VMs, the most common tools can be installed via `Homebrew`_. Some have turned to `Docker`_ to run tools otherwise unavailable on OS X, but this is just another form of virtualization. (Not that there's anything wrong with that.)
+For hackers looking to use macOS as the foundation of their toolkit, instead of simply using VMs, the most common tools can be installed via `Homebrew`_. Some have turned to `Docker`_ to run tools otherwise unavailable on macOS, but this is just another form of virtualization. (Not that there's anything wrong with that.)
 
 .. _Homebrew: https://brew.sh/
 .. _Docker: https://www.docker.com/
@@ -68,3 +68,21 @@ Much like Windows, Linux VMs are also quite useful for testing attacks and mitig
     In the InfoSec world, the `Kali Linux`_ distribution has become the defacto standard. The distribution includes a robust pentesting toolkit, pre-configured for the sake of simplicity. As such, the remainder of this guide will assume the use of :index:`Kali Linux`, unless otherwise stated. That being said, the tools and techniques in the guide are not specific to Kali, and can be used with little or no alteration in other Linux distributions.
 
 .. _Kali Linux: https://www.kali.org/
+
+
+And So On...
+------------
+Many other Operating Systems exist beyond the Big Three. The Berkeley Software Distribution (BSD) has a variety of descendants, such as `FreeBSD`_, `OpenBSD`_ and `NetBSD`_. In some environments, you'll find systems running `Solaris`_ or one of its open-source descendants, such as `illumos`_ and its derivative `OpenIndiana`_. You might even find systems running `FreeDOS`_ or `ReactOS`_, open-source alternatives to MS-DOS and Windows (respectively).
+
+.. _FreeBSD: https://www.freebsd.org/
+.. _NetBSD: https://www.netbsd.org/
+.. _OpenBSD: https://www.openbsd.org/
+.. _Solaris: https://en.wikipedia.org/wiki/Solaris_(operating_system)
+.. _illumos: https://www.illumos.org/
+.. _OpenIndiana: https://www.openindiana.org/
+.. _FreeDOS: https://www.freedos.org/
+.. _ReactOS: https://reactos.org/
+
+.. warning::
+
+    No matter which OS you prefer to use, you should strive to familiarize yourself with each of the Big Three (Windows, macOS, and Linux), and probably BSD and Solaris as well. You never know what you'll encounter in a penetration test. Adaptability is crucial.
