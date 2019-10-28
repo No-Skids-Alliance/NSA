@@ -59,4 +59,6 @@ Much like Windows, Linux VMs are also quite useful for testing attacks and mitig
 
 .. note::
 
-    For professionals and hobbyists alike, the Kali Linux distribution has become the defacto standard. As such, the remainder of this guide will be written from the perspective of a Kali user. That being said, the tools and techniques in the guide are not specific to Kali, and can typically be used with little or no alteration in other Linux distributions.
+    In the InfoSec world, the `Kali Linux`_ distribution has become the defacto standard. The distribution includes a robust pentesting toolkit, pre-configured for the sake of simplicity. As such, the remainder of this guide will assume the use of Kali Linux, unless otherwise stated. That being said, the tools and techniques in the guide are not specific to Kali, and can be used with little or no alteration in other Linux distributions.
+
+.. _Kali Linux: https://www.kali.org/
