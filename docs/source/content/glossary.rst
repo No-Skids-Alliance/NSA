@@ -72,6 +72,12 @@ script kiddie / skid
 .. index:: !script kiddie
 
 
+shell script
+  A text file that contains a sequence of commands for a Unix-based operating system.
+
+.. index:: !shell script
+
+
 vulnerability
   A weakness in a system, network, or other entity, which makes the entity open to abuse or attack.
 
