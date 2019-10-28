@@ -83,6 +83,16 @@ Many other Operating Systems exist beyond the Big Three. The Berkeley Software D
 .. _FreeDOS: https://www.freedos.org/
 .. _ReactOS: https://reactos.org/
 
-.. warning::
+.. note::
 
     No matter which OS you prefer to use, you should strive to familiarize yourself with each of the Big Three (Windows, macOS, and Linux), and probably BSD and Solaris as well. You never know what you'll encounter in a penetration test. Adaptability is crucial.
+
+    Here are a few resources for learning how to use the various systems' command-line interfaces (since this will often be your first point of contact with a system):
+
+    * Windows: `ComputerHope CMD.EXE Tutorial`_
+    * macOS: `Apple Developer Portal Command Line Primer`_
+    * Linux: `Linux.com Command Line Basics`_
+
+.. _ComputerHope CMD.EXE Tutorial: https://www.computerhope.com/issues/chusedos.htm
+.. _Apple Developer Portal Command Line Primer: https://developer.apple.com/library/archive/documentation/OpenSource/Conceptual/ShellScripting/CommandLInePrimer/CommandLine.html
+.. _Linux.com Command Line Basics: https://www.linux.com/tutorials/how-use-linux-command-line-basics-cli/
