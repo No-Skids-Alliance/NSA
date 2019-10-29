@@ -17,4 +17,5 @@ No Skids Allowed! A Pentester's Primer
 
    content/0-introduction/_index.rst
    content/1-fundamentals/_index.rst
+   content/Q-Quick-Reference/_index.rst
    content/glossary.rst

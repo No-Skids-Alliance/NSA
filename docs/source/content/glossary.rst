@@ -8,6 +8,18 @@ exploit
 .. index:: !exploit
 
 
+Google Dork / * Dork
+  A syntactical search recipe enabling users to discover specific information online, such as vulnerable systems or private data.
+
+.. index:: !Google Dork
+
+
+Google-Fu
+  The ability to effectively employ search engines to obtain useful information.
+
+.. index:: !Google-Fu
+
+
 hack
   1. To write (software) or modify (software or hardware) in a clever or skillful way.
   2. To gain unauthorized access to computer files, systems, and/or networks.
@@ -34,6 +46,12 @@ malware
   Software designed to disrupt, damage, or gain unauthorized access to computer systems.
 
 .. index:: !malware
+
+
+Open-Source Intelligence (OSINT)
+  Data collected from publicly available sources to be used in an intelligence context.
+
+.. index:: !OSINT
 
 
 penetration test / pentest
