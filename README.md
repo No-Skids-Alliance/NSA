@@ -14,7 +14,7 @@ The documentation for NSA! is generated using [Sphinx](https://www.sphinx-doc.or
 
 _Note: These instructions were written for *nix systems. Minor changes may be required for Windows users._
 
-1. Install Python 3 and `virtualenv`.
+1. Install Python 3, `virtualenv`, `texlive-formats-extra` and `latexmk`.
 2. Clone the repository.
 3. In the cloned repo, use `virtualenv --python=python3 venv` to create a new virtual environment.
 4. When this completes, use `source venv/bin/activate` to activate the virtual environment.
