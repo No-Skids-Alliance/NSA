@@ -36,6 +36,16 @@ hacker
 .. index:: !hacker
 
 
+hacking
+  1. Writing software.
+  2. Gaining unauthorized access to data, systems, or networks.
+  3. Finding clever or creative solutions to problems.
+  4. Splitting something with an axe.
+  5. Doing whatever hackers do.
+
+.. index:: !hacking
+
+
 hacktivism
   Using hacking techniques and skills to gain unauthorized access to computer files, systems, and/or networks, in order to further social or political ends.
 
