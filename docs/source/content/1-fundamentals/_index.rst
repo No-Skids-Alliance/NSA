@@ -7,4 +7,5 @@ The following sections cover the basic knowledge and skills you'll need in order
    :caption: Chapter Contents
 
    0-ethics.rst
-   1-software.rst
+   1-knowledge.rst
+   2-software.rst
