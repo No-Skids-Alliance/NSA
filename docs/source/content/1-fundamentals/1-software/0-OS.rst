@@ -37,7 +37,7 @@ While the selection of offensive :index:`hacking` tools is more limited on Windo
 .. _Commando-VM: https://github.com/fireeye/commando-vm
 .. _FireEye: https://www.fireeye.com/
 
-Windows VMs aren't just useful for offensive operations, however. :index:`Hackers <hacker>` often use Windows VMs for testing attacks and mitigation, or for compiling software to be used on other Windows systems. In fact, Microsoft has made pre-configured VM images available for free, enabling hackers and programmers to work with Windows without having to pay for a full license. A `Windows 10 Development Environment`_ was released, including pre-installed tools for software development and deployment. In addition, a selection of other `Windows Virtual Machines`_ were also released, for developers and :index:`hackers <hacker>` seeking to test on a variety of other Windows versions and browsers.
+Windows VMs aren't just useful for offensive operations, however. :index:`Hackers <hacker>` often use Windows VMs for testing attacks and mitigation, or for compiling software to be used on other Windows systems. To this end, Microsoft released a free `Windows 10 Development Environment`_, featuring a full suite of development tools. A selection of other free `Windows Virtual Machines`_ are also available, enabling developers and :index:`hackers <hacker>` to test a variety of Windows versions and browsers.
 
 .. _Windows 10 Development Environment: https://developer.microsoft.com/en-us/windows/downloads/virtual-machines
 .. _Windows Virtual Machines: https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/
@@ -46,7 +46,12 @@ Windows VMs aren't just useful for offensive operations, however. :index:`Hacker
 Apple macOS
 -----------
 
-Based on the Berkeley Software Distribution (BSD), Apple's macOS has gained a large following among :index:`hackers <hacker>` and non-hackers alike. It's a popular choice for host OS, thanks to stability, speed, and personal preference. However, macOS is not commonly used as a guest VM, largely due to the technical and legal complications involved. This hasn't prevented hackers from using macOS in their pentests, but it has limited the availability of macOS to those willing to purchase a Mac (or pirate the OS).
+Based on the `Berkeley Software Distribution`_ (BSD), Apple's `macOS`_ has gained a large following among :index:`hackers <hacker>` and non-hackers alike. It's a popular choice for host OS, thanks to stability, speed, and personal preference. However, macOS is not commonly used as a guest VM, largely due to the technical and legal complications involved. This hasn't prevented hackers from using macOS in their pentests, but it has limited the availability of macOS to those willing to `purchase a Mac`_ (or create a "`Hackintosh`_").
+
+.. _Berkeley Software Distribution: https://en.wikipedia.org/wiki/Berkeley_Software_Distribution
+.. _macOS: https://www.apple.com/macos/
+.. _purchase a Mac: https://www.apple.com/mac/
+.. _Hackintosh: https://hackintosh.com/
 
 For :index:`hackers <hacker>` looking to use macOS as the foundation of their toolkit, instead of simply using VMs, the most common tools can be installed via `Homebrew`_. Some have turned to `Docker`_ to run tools otherwise unavailable on macOS, but this is just another form of virtualization. (Not that there's anything wrong with that.)
 
@@ -57,8 +62,9 @@ For :index:`hackers <hacker>` looking to use macOS as the foundation of their to
 Linux
 -----
 
-By far the most popular choice for :index:`hackers <hacker>`, Linux has become a main-stay in the Information Security industry. While popular distributions like `Arch`_, `CentOS`_, `Debian`_ and `Fedora`_ serve as a solid foundation for developing a toolkit, many hackers opt for pre-configured pentest-focused distributions like `BlackArch`_, `Kali`_ and `Parrot`_ for use in their VMs.
+By far the most popular choice for :index:`hackers <hacker>`, `Linux`_ has become a main-stay in the Information Security industry. While popular distributions like `Arch`_, `CentOS`_, `Debian`_ and `Fedora`_ serve as a solid foundation for developing a toolkit, many hackers opt for pre-configured pentest-focused distributions like `BlackArch`_, `Kali`_ and `Parrot`_ for use in their VMs.
 
+.. _Linux: https://en.wikipedia.org/wiki/Linux
 .. _Arch: https://www.archlinux.org/
 .. _CentOS: https://www.centos.org/
 .. _Debian: https://www.debian.org/
@@ -67,13 +73,17 @@ By far the most popular choice for :index:`hackers <hacker>`, Linux has become a
 .. _Kali: https://www.kali.org/
 .. _Parrot: https://parrotlinux.org/
 
-Much like Windows, Linux VMs are also quite useful for testing attacks and mitigation, software development, and other functions. In fact, with the prevalence of Linux systems in corporate and internet-facing environments, the ability to navigate and operate a Linux system is an essential skill for hackers and information security professionals.
+Much like Windows, Linux VMs are also quite useful for testing attacks and mitigation, software development, and other functions. In fact, with the prevalence of Linux systems in corporate and internet-facing environments, the ability to navigate and operate a Linux system is an essential hacker skill.
 
 .. note::
 
-    In the InfoSec world, the `Kali Linux`_ distribution has become the defacto standard. The distribution includes a robust :index:`pentesting <penetration test>` toolkit, pre-configured for the sake of simplicity. As such, the remainder of this guide will assume the use of :index:`Kali Linux`, unless otherwise stated. That being said, the tools and techniques in the guide are not specific to Kali, and can oft be used with little or no alteration in other Linux distributions.
+    In the InfoSec world, the `Kali Linux`_ distribution has become the de facto standard. The distribution includes a robust :index:`pentesting <penetration test>` toolkit, pre-configured for the sake of simplicity. As such, the remainder of this guide will assume the use of :index:`Kali Linux`, unless otherwise stated. That being said, the tools and techniques in the guide are not specific to Kali, and can oft be used with little or no alteration in other Linux distributions.
+
+    Readers unfamiliar with Kali should read `the Kali documentation`_ and/or the free `Kali Linux Revealed`_ ebook. This guide assumes a basic familiarity with Kali.
 
 .. _Kali Linux: https://www.kali.org/
+.. _the Kali documentation: https://www.kali.org/docs/
+.. _Kali Linux Revealed: https://www.kali.org/download-kali-linux-revealed-book/
 
 
 And So On...
