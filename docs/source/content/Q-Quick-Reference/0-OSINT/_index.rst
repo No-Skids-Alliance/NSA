@@ -1,10 +1,8 @@
+.. _OSINT Search Engines:
+
 Open-Source Intelligence (:index:`OSINT`)
 =========================================
 
-.. _OSINT Search Engines:
-
-Search Engines
---------------
 :index:`OSINT` Resources Portal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The `OSINT Resources Portal <https://osint.link/>`_ comprises a plethora of OSINT sources. So big it deserves its own section.
