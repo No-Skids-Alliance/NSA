@@ -1,0 +1,14 @@
+.. _toolkit:
+
+The Hacker's Toolkit
+====================
+
+Every :index:`hacker` has their own unique approach to the craft, and a unique toolkit to compliment their approach. However, the basic essentials are largely the same. At a minimum, a hacker needs access to a computer and the internet. The rest is up to the individual. The following sections detail some of the different technologies often included in a hacker's toolkit.
+
+
+.. toctree::
+   :caption: Section Contents
+
+   2-software/0-OS.rst
+   2-software/1-Programming.rst
+   2-software/2-Google.rst
