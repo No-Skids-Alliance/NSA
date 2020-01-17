@@ -9,6 +9,6 @@ Every :index:`hacker` has their own unique approach to the craft, and a unique t
 .. toctree::
    :caption: Section Contents
 
-   2-software/0-OS.rst
-   2-software/1-Programming.rst
-   2-software/2-Google.rst
+   4-software/0-OS.rst
+   4-software/1-Programming.rst
+   4-software/2-Google.rst
