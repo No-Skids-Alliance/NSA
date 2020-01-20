@@ -14,11 +14,13 @@ Such a video can also help the hacker augment their memory when writing the tech
 
 But screenshots and video recordings aren't enough; during the pentest itself, it's necessary to keep track of a great deal of data. For this, most pentesters take extensive notes throughout the pentest process. Note-taking apps like `Joplin`_ and `CherryTree`_ are commonly-used for their organizational structure.
 
-_Joplin: https://joplinapp.org/
-_CherryTree: https://www.giuspen.com/cherrytree/
+.. _Joplin: https://joplinapp.org/
+.. _CherryTree: https://www.giuspen.com/cherrytree/
 
-One of the best ways to not only keep yourself organized during a pentest, but to simplify the report-writing process, is to write the report throughout the test. Many people wait until after a pentest is complete to comb through their notes and screenshots and compile their report. However, this is a sub-optimal approach, requiring a great deal of effort all at once, and all at the _tail end_ of a thorough penetration test. By writing the report throughout the pentest, you reinforce your understanding of the pentest-thus-far, which can help you keep your thoughts straight as you proceed. On top of that, you save yourself a great deal of effort at the end of the pentest; instead of writing a report from scratch, you need only revise the report you've already written.
+One of the best ways to not only keep yourself organized during a pentest, but to simplify the report-writing process, is to write the report throughout the test. Many people wait until after a pentest is complete to comb through their notes and screenshots and compile their report. However, this is a sub-optimal approach, requiring a great deal of effort all at once, and all at the `tail end` of a thorough penetration test. By writing the report throughout the pentest, you reinforce your understanding of the pentest-thus-far, which can help you keep your thoughts straight as you proceed. On top of that, you save yourself a great deal of effort at the end of the pentest; instead of writing a report from scratch, you need only revise the report you've already written.
 
 .. note::
 
     If you're curious to learn more about how a pentest report is written, check out this `curated list of public pentesting reports`_. Here you can read all the real, professionally-produced pentest reports you could possibly ever want.
+
+.. _curated list of public pentesting reports: https://github.com/juliocesarfort/public-pentesting-reports
