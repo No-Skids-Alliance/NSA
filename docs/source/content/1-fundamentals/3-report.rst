@@ -3,25 +3,22 @@
 
 Reporting
 ---------
-The last step in the Scientific Method is perhaps the most important step of all. Without proper documentation, an experiment is pointless. After every pentest is concluded, the pentester submits a report detailing the results of the test. The report typically includes two primary sections:
+When a client purchases a penetration test, the real return on their investment is the report. Without the report, the pentest is pointless. The report must be comprehensive and well-crafted, and typically includes two primary sections:
 
 * Executive Summary: A non-technical overview aimed at management.
 * Detailed Report: An in-depth technical record of the engagement.
 
-When a client purchases a penetration test, they're paying for the report. As such, the report should be comprehensive and well-crafted. Yet many pentesters wait until after the test is concluded to begin writing their report, working from memory. It's common practice to take extensive notes and screenshots during a penetration test, and many hackers use screen-recording software to take video captures of their pentesting engagements. These methods help supplement memory, allowing the pentester to write a better report. Still, writing the report is a daunting exercise, and the quality tends to suffer when the report is compiled all at once.
+Considering the importance of reporting, it is essential to be accurate and comprehensive. Detailed, step-by-step instructions are often called for, and it is common practice to include screenshots for each step of the attack simulation. Some hackers use screen recording software to record an entire pentest, then go back and grab screenshots from the video, so as to ensure that nothing is lost. This can be especially helpful if you happened to forget to include a screenshot of a vital step in the process. Rather than having to re-hack the target, you can simply take a screenshot from the video.
 
-Recall that a pentest is basically the Scientific Method on a loop.
+Such a video can also help the hacker augment their memory when writing the technical report. With so many things happening in a pentest, it's easy to get overwhelmed by all the data. The video recording allows them to see their process from start to finish, even if they forgot how they performed a specific attack.
 
+But screenshots and video recordings aren't enough; during the pentest itself, it's necessary to keep track of a great deal of data. For this, most pentesters take extensive notes throughout the pentest process. Note-taking apps like `Joplin`_ and `CherryTree`_ are commonly-used for their organizational structure.
 
+_Joplin: https://joplinapp.org/
+_CherryTree: https://www.giuspen.com/cherrytree/
 
-The last step of the Scientific Method is to communicate results. In effect, the assembled pentest report comprises a series of smaller reports, each contributing to an overall understanding of the client's security strengths and weaknesses. Each of those smaller reports should be written `as the pentest is conducted`, at the conclusion of each loop.
+One of the best ways to not only keep yourself organized during a pentest, but to simplify the report-writing process, is to write the report throughout the test. Many people wait until after a pentest is complete to comb through their notes and screenshots and compile their report. However, this is a sub-optimal approach, requiring a great deal of effort all at once, and all at the _tail end_ of a thorough penetration test. By writing the report throughout the pentest, you reinforce your understanding of the pentest-thus-far, which can help you keep your thoughts straight as you proceed. On top of that, you save yourself a great deal of effort at the end of the pentest; instead of writing a report from scratch, you need only revise the report you've already written.
 
-If you're pentesting a network of computers, your final report will represent the network as a whole. However, the report will effectively be a set of smaller reports, one per system. And each system's report will be a set of smaller reports, one for each exploit used to compromise the system. This is because each exploit is an experiment, nested within a system-wide experiment, nested within a network-wide experiment.
+.. note::
 
-There
-
-
-
-overlook the fact that the scientific method applies to each step of the pentest process as well. Pentesters often don't begin writing the pentest report until after the test is concluded.
-
-until a penetration test is concluded before they write their report, keeping only cursory notes throughout the testing process. Some create screen-recordings of the penetration test, enabling them to retrace their steps and grab still images from the video.
+    If you're curious to learn more about how a pentest report is written, check out this `curated list of public pentesting reports`_. Here you can read all the real, professionally-produced pentest reports you could possibly ever want.
