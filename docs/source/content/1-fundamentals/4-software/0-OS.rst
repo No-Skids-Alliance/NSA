@@ -1,11 +1,5 @@
 Virtual Machines and Operating Systems
 ======================================
-
-.. index::
-   single: hacker
-   single: penetration test
-   single: report
-
 Perhaps the most fundamental choice in designing your hacker toolkit will be which Operating System (OS) to use. Prior to virtualization technology, the choice of OS was crucial, as it limited the range of tools available. Hackers often chose to use Linux, as it supported the largest range of pentesting tools at the lowest up-front cost. However, with the rise of virtual machines (VMs), which allow users to run multiple `guest` OSes inside a `host` OS, hackers were granted the freedom to run whichever host and guest OSes they wanted. In recent years, virtualization has become one of the most prevalent and important technologies, with numerous virtualization options available to users.
 
 .. index::
