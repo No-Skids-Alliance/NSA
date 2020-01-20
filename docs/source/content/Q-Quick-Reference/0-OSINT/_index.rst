@@ -16,8 +16,8 @@ General-Purpose
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `Google Hacking Database <https://www.exploit-db.com/google-hacking-database>`_
 
-:index:`Exploits <exploit>` and :index:`Vulnerabilities <vulnerability>`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Exploits and Vulnerabilities
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 * `Exploit Database <https://www.exploit-db.com/>`_
 * `NIST National Vulnerability Database <https://nvd.nist.gov/>`_
 * `CVE Details <https://www.cvedetails.com/>`_

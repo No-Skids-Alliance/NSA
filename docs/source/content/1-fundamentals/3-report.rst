@@ -1,6 +1,9 @@
+.. index::
+   single: reporting
+
 Reporting
 ---------
-The last step in the Scientific Method is perhaps the most important step of all. Without proper documentation, an experiment is pointless. After every :index:`pentest <penetration test>` is concluded, the :index:`pentester <penetration tester>` submits a :index:`report` detailing the results of the test. The report typically includes two primary sections:
+The last step in the Scientific Method is perhaps the most important step of all. Without proper documentation, an experiment is pointless. After every pentest is concluded, the pentester submits a report detailing the results of the test. The report typically includes two primary sections:
 
 * Executive Summary: A non-technical overview aimed at management.
 * Detailed Report: An in-depth technical record of the engagement.
@@ -19,6 +22,6 @@ There
 
 
 
-overlook the fact that the scientific method applies to each step of the :index:`pentest <penetration test>` process as well. Pentesters often don't begin writing the pentest report until after the test is concluded.
+overlook the fact that the scientific method applies to each step of the pentest process as well. Pentesters often don't begin writing the pentest report until after the test is concluded.
 
 until a penetration test is concluded before they write their report, keeping only cursory notes throughout the testing process. Some create screen-recordings of the penetration test, enabling them to retrace their steps and grab still images from the video.

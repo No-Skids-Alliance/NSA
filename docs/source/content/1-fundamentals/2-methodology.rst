@@ -1,6 +1,6 @@
 Pentest Methodology
 ===================
-As in other areas of engineering and science, :index:`pentesting <penetration test>` is most effective when based on the foundation of a solid methodology. A variety of penetration testing methodologies have been published, each outlining a set of phases and objectives. These methodologies help ensure a thorough, comprehensive test, and help hackers stay organized and maximize their effectiveness.
+As in other areas of engineering and science, pentesting is most effective when based on the foundation of a solid methodology. A variety of penetration testing methodologies have been published, each outlining a set of phases and objectives. These methodologies help ensure a thorough, comprehensive test, and help hackers stay organized and maximize their effectiveness.
 
 One of the most basic and widely-recognized standards is the `Penetration Testing Execution Standard`_ (PTES). Other standards, such as the `Open Source Security Testing Methodology Manual`_ (OSSTMM) or the `Penetration Testing Framework`_ (PTF), are widely-used as well.
 
@@ -14,7 +14,7 @@ One of the most basic and widely-recognized standards is the `Penetration Testin
 
 .. _OWASP Wiki: https://www.owasp.org/index.php/Penetration_testing_methodologies
 
-Let's take a closer look at the PTES to get an idea of what a :index:`pentest <penetration test>` methodology comprises. Here's a summary breakdown:
+Let's take a closer look at the PTES. Here's a summary breakdown:
 
 1. Pre-Engagement Interactions
     * All the "business stuff" that must be done prior to the engagement.

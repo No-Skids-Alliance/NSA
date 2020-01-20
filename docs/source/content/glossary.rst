@@ -5,8 +5,6 @@ exploit
   1. A piece of software that takes advantage of a vulnerability to compromise a computer system or network.
   2. The act of using such software against a target.
 
-.. index:: !exploit
-
 
 Google Dork / * Dork
   A syntactical search recipe enabling users to discover specific information online, such as vulnerable systems or private data.
@@ -25,15 +23,11 @@ hack
   2. To gain unauthorized access to computer files, systems, and/or networks.
   3. A clever or skillfully-crafted piece of software or hardware, or a clever or skillful technique.
 
-.. index:: !hack
-
 
 hacker
   1. An expert or enthusiast of any kind.
   2. One who enjoys the intellectual challenge of creatively overcoming or circumventing limitations.
   3. A person who uses technology to gain unauthorized access to computer files, systems, and/or networks.
-
-.. index:: !hacker
 
 
 hacking
@@ -42,8 +36,6 @@ hacking
   3. Finding clever or creative solutions to problems.
   4. Splitting something with an axe.
   5. Doing whatever hackers do.
-
-.. index:: !hacking
 
 
 hacktivism
@@ -55,8 +47,6 @@ hacktivism
 malware
   Software designed to disrupt, damage, or gain unauthorized access to computer systems.
 
-.. index:: !malware
-
 
 Open-Source Intelligence (OSINT)
   Data collected from publicly available sources to be used in an intelligence context.
@@ -67,13 +57,9 @@ Open-Source Intelligence (OSINT)
 penetration test / pentest
   The use of adversarial tactics to simulate an attack against systems, networks, individuals or groups, with the intent of revealing and mitigating vulnerabilities.
 
-.. index:: !penetration test
-
 
 penetration tester / pentester
   Someone who conducts penetration tests.
-
-.. index:: !penetration tester
 
 
 Remote-Access Trojan / RAT
@@ -85,8 +71,6 @@ Remote-Access Trojan / RAT
 report
   In the context of a penetration test, a written document containing vulnerabilities, exploits, mitigation and advice, created by the penetration tester for the client.
 
-.. index:: !report
-
 
 scope
   The systems, locations, techniques and tools which can be used in a specific `penetration test`.
@@ -97,16 +81,10 @@ scope
 script kiddie / skid
   An unskilled individual who uses other people's tools and exploits without understanding how or why they work.
 
-.. index:: !script kiddie
-
 
 shell script
   A text file that contains a sequence of commands for a Unix-based operating system.
 
-.. index:: !shell script
-
 
 vulnerability
   A weakness in a system, network, or other entity, which makes the entity open to abuse or attack.
-
-.. index:: !vulnerability

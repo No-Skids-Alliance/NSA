@@ -1,7 +1,7 @@
 Fundamentals
 ============
 
-The following sections cover the basic knowledge and skills you'll need in order to start your journey as a computer :index:`hacker`.
+The following sections cover the basic knowledge and skills you'll need in order to start your journey as a computer hacker.
 
 .. toctree::
    :caption: Chapter Contents
