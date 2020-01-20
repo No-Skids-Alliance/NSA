@@ -45,7 +45,7 @@ Let's take a closer look at the PTES. Here's a summary breakdown:
 
 At first glance, this might seem pretty complicated. And if you take a closer look at the [PTES](http://www.pentest-standard.org/index.php/Main_Page), you'll find that there are a great many steps involved in each section of the test. However, the PTES and other methodologies aren't as complicated as they seem. They include detailed information and instructions, but this is mainly to prevent accidental oversight.
 
-In truth, each of the established :index:`penetration testing <penetration test>` methodologies essentially follow the Scientific Method:
+In truth, each of the established penetration testing methodologies essentially follow the Scientific Method:
 
 1. Ask a question.
 2. Do background research.
@@ -60,43 +60,8 @@ In truth, each of the established :index:`penetration testing <penetration test>
     * Yes? Proceed to 8.
 8. Communicate the results.
 
-A penetration test is, essentially, the Scientific Method on a loop. Simplified, it looks like this:
+A penetration test is, essentially, the Scientific Method applied to security. In the pre-engagement interactions, you establish the experiment's question. Essentially, "How is my client vulnerable to attack?" The :index:`scope` narrows the focus of the question, defining the constraints of the experiment. Once the scope is defined, you move on to the research portion, gathering intelligence about the target. Threat modeling enables you to construct a hypothesis about potential routes for exploitation. To confirm or reject hypotheses, pentesters conduct simulated attacks (experiments, essentially).
 
-1. Research: Collect as much information as possible.
-2. Analyze: Consider the information, and devise a plan of action.
-3. Act: Carry out the plan, and report the results.
+These simulated attacks each follow their own Scientific Method, from question ("Is this version of Sendmail vulnerable?") to hypothesis ("This CVE should provide remote code execution.") to experimentation, analysis, and conclusion ("This version of Sendmail is not vulnerable to this CVE."), after which the results of the experiment are recorded.
 
-This loop can be seen in the PTES:
-
-1. Pre-Engagement Interactions
-    * Scientific Method: Ask a question. ("How is my client vulnerable to attack?")
-    * Establish the parameters and scope of the test. (This is, essentially, just asking a more specific question.)
-2. Intelligence Gathering
-    * Research: Gather as much knowledge about the client as possible.
-3. Threat Modeling
-    * Analyze: Consider and prioritize likely attackers and targets.
-    * Act: Carry out the remainder of the test based on the established priorities.
-4. Vulnerability Analysis
-    * Discovery: Investigate each priority target, learning all you can.
-    * Analysis: Consider and prioritize likely weaknesses.
-5. Exploitation
-    * Act: Exploit weaknesses according to established priorities.
-6. Post-Exploitation
-    * Discovery: With new levels of access/control, gain as much information as possible.
-    * Analysis: Consider and prioritize additional weaknesses or ways to gain additional access/control.
-    * Action: Continue the test until a satisfactory conclusion has been reached.
-7. Reporting
-    * Scientific Method: Communicate the results.
-
-If we break it down further, a :index:`penetration test` is just a large scientific experiment comprising a series of smaller scientific experiments, each following the complete Scientific Method. For example, let's say that in step 4, a hacker discovered a possible :index:`Remote Code Execution` (RCE) vulnerability in the target's system. To determine whether the RCE can be exploited, the hacker essentially conducts a scientific experiment:
-
-1. Ask a question: `"Is this service vulnerable?"`
-2. Do background research: `Find possible exploit code. Determine target OS and architecture. Consider potential shellcodes.`
-3. Construct a hypothesis: `"I believe that Exploit A with Shellcode B will result in remote access to the target."`
-4. Test with an experiment: `Run the exploit.`
-5. Did it work? `"Yes!"`
-6. Analyze the data and draw conclusions: `"The target service is vulnerable to Exploit A with Shellcode B, providing the attacker with a remote shell."`
-7. Do the results align with your hypothesis? `"Yes."`
-8. Communicate the results: `Add the data to the report.`
-
-As you can see, each step of the penetration test "experiment" can be considered an experiment on its own.
+Once all the attacks are complete, the pentester analyzes all the data and draws conclusions, which are communicated to the client in a final report.
