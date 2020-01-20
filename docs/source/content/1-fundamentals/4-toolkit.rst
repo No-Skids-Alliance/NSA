@@ -9,6 +9,6 @@ Every hacker has their own unique approach to the craft, and a unique toolkit to
 .. toctree::
    :caption: Section Contents
 
-   4-software/0-OS.rst
-   4-software/1-Programming.rst
-   4-software/2-Google.rst
+   4-toolkit/0-OS.rst
+   4-toolkit/1-Programming.rst
+   4-toolkit/2-Google.rst
