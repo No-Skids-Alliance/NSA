@@ -1,8 +1,8 @@
 Programming Languages
 =====================
-As a :index:`hacker`, you'll often be elbow-deep in code. Whether performing an audit to find :index:`vulnerabilities <vulnerability>`, tweaking an :index:`exploit` to work with a specific target, or writing a new :index:`Remote-Access Trojan (RAT)` to take over a system, you need to know how to read and write a variety of programming languages.
+As a hacker, you'll often be elbow-deep in code. Whether performing an audit to find vulnerabilities, tweaking an exploit to work with a specific target, or writing a new :index:`Remote-Access Trojan (RAT)` to take over a system, you need to know how to read and write a variety of programming languages.
 
-At a minimum, you should be familiar with a general-purpose, cross-platform programming language like Python, as well as the fundamentals necessary to write :index:`shell scripts <shell script>` for various OSes. Fortunately, there are plenty of free resources online where you can learn the basics:
+At a minimum, you should be familiar with a general-purpose, cross-platform programming language like Python, as well as the fundamentals necessary to write shell scripts for various OSes. Fortunately, there are plenty of free resources online where you can learn the basics:
 
 * `Learn Python`_
 * `Learn JavaScript`_

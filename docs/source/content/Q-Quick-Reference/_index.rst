@@ -1,4 +1,5 @@
 Quick Reference
 ===============
 .. toctree::
-   0-OSINT/_index.rst
+   Methodologies.rst
+   OSINT.rst

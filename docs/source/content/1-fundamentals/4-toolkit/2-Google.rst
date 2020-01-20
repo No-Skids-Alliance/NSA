@@ -5,7 +5,7 @@ Search Engines and Google-Fu
 
 Perhaps the most important tool in your arsenal, search engines provide a means of quickly and efficiently sorting through the totality of human knowledge. Sometimes referred to as `Google-Fu`, true search-engine mastery will enable you to learn just about anything, and plays a pivotal role in nearly every aspect of a :index:`hacker`'s craft.
 
-Most popular search engines (such as `Google`_ and `DuckDuckGo`_) feature a robust search syntax, providing powerful tools for narrowing search results. Historically, :index:`hackers <hacker>` have used the term `Dork` (as in ":index:`Google Dork`") to refer to a syntactical search recipe. For example, the `Google Hacking Database`_ features a collection of Dorks to identify websites and computer systems with vulnerable software or configurations.
+Most popular search engines (such as `Google`_ and `DuckDuckGo`_) feature a robust search syntax, providing powerful tools for narrowing search results. Historically, hackers have used the term `Dork` (as in ":index:`Google Dork`") to refer to a syntactical search recipe. For example, the `Google Hacking Database`_ features a collection of Dorks to identify websites and computer systems with vulnerable software or configurations.
 
 .. _Google: https://google.com/
 .. _DuckDuckGo: https://duckduckgo.com/
