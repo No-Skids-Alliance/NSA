@@ -1,6 +1,12 @@
 Glossary
 ========
 
+Capture the Flag (CTF)
+  A game in which hackers attempt to penetrate a specially-designed target system or network. CTFs are a good way to legally practice hacking skills and gain recognition in the hacker community.
+
+.. index:: !Capture the Flag
+
+
 exploit
   1. A piece of software that takes advantage of a vulnerability to compromise a computer system or network.
   2. The act of using such software against a target.
@@ -62,7 +68,7 @@ penetration tester / pentester
   Someone who conducts penetration tests.
 
 
-Remote-Access Trojan / RAT
+Remote-Access Trojan (RAT)
   A malware program used by intruders to remotely control target systems.
 
 .. index:: !Remote-Access Trojan (RAT)
