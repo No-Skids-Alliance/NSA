@@ -12,3 +12,4 @@ Every hacker has their own unique approach to the craft, and a unique toolkit to
    4-toolkit/0-OS.rst
    4-toolkit/1-Programming.rst
    4-toolkit/2-Google.rst
+   4-toolkit/3-Metasploit.rst
