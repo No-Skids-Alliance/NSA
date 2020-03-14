@@ -17,3 +17,5 @@ This walk-through, as with all the others throughout the guide, is cross-referen
 
 .. toctree::
    :caption: Chapter Contents
+
+   0-enumeration.rst

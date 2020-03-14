@@ -7,6 +7,10 @@ Capture the Flag (CTF)
 .. index:: !Capture the Flag
 
 
+enumeration
+  The process of collecting useful information about a target, such as open ports, software version numbers, etc.
+
+
 exploit
   1. A piece of software that takes advantage of a vulnerability to compromise a computer system or network.
   2. The act of using such software against a target.
