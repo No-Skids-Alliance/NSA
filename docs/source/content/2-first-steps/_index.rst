@@ -1,7 +1,9 @@
 First Steps
 ===========
 
-In this section, we'll get started with a hands-on walk-through of a fairly easy `HackTheBox`_ target: Legacy.
+.. index:: !Legacy (HackTheBox)
+
+In this section, we'll get started with a hands-on walk-through of a fairly easy `HackTheBox`_ target: `Legacy`.
 
 .. note::
 
@@ -15,9 +17,3 @@ This walk-through, as with all the others throughout the guide, is cross-referen
 
 .. toctree::
    :caption: Chapter Contents
-
-   0-ethics.rst
-   1-knowledge.rst
-   2-methodology.rst
-   3-report.rst
-   4-toolkit.rst

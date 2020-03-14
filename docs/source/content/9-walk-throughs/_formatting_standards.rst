@@ -1,0 +1,45 @@
+Formatting Standards
+====================
+
+This document will not be included in the main text of the book, and serves only as a reference to how walk-throughs should be formatted.
+
+
+
+*Asterisks* should be used for things that should appear bold:
+
+* The names of links, buttons, form fields, menu options, etc.
+  * Examples:
+    * Click the *submit* button.
+    * Type the account name into the *Username* field.
+    * To exit the program, click *File > Quit*.
+  * Menu options use the "greater than" symbol to show sub-menu items:
+    * *Edit > Preferences*
+
+
+
+`Single-Backtics` should be used for things that should appear italicized:
+
+* Software names (nmap, Metasploit, Apache, ProFTPd)
+* Proper Names assigned to targets (Legacy, Beep, Brainfuck, etc.)
+
+
+
+``Double-Backtics`` should be used for things that should appear mono-spaced:
+
+* IPs and Hostnames
+* Names of files and directories
+* Usernames and Passwords
+* Commands typed into a terminal or text-entry field (nmap, nc, dirb, ls, etc.)
+* Names of software functions or modules
+
+
+
+.. code-block:: none
+
+    Code Blocks should surround blocks of code, or text copied and pasted from a command-line. Whenever possible, include the name of the scripting language after the ``code-block`` descriptor, as seen above. This allows for syntax highlighting. For example:
+
+.. code-block:: python
+
+    #!/usr/bin/env python3
+
+    print("Hello, world!")
