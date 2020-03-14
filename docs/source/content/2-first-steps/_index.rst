@@ -1,3 +1,5 @@
+.. _Legacy (HackTheBox):
+
 First Steps
 ===========
 

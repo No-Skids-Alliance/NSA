@@ -1,3 +1,5 @@
+.. _Legacy Enumeration:
+
 Enumeration
 ===========
 
@@ -54,7 +56,7 @@ Excellent! We've identified two open ports: 139 and 445. According to `nmap`, th
     Device type: general purpose
     Running (JUST GUESSING): Microsoft Windows 2000|XP|2003 (90%)
     [...]
-    Aggressive OS guesses: Microsoft Windows 2000 SP4 or Windows XP SP2 or SP3 (90%), Microsoft Windows XP SP2 (89%), Microsoft Windows XP SP2 or Windows Small Business Server 2003 (88%), [...]
+    Aggressive OS guesses: Microsoft Windows 2000 SP4 or Windows XP SP2 or SP3 (90%), Microsoft Windows XP SP2 (89%), [...]
     No exact OS matches for host (test conditions non-ideal).
     Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
 
