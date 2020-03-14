@@ -104,3 +104,12 @@ This command-line argument tells `nmap` to attempt to identify the specific soft
 **Example:** ``nmap -O 10.10.10.4``
 
 This command-line argument tells `nmap` to attempt to identify the target's Operating System information, including which version is installed. To do this, `nmap` analyses the open ports, as well as whatever other information it can gather from the target. While precise OS detection can be challenging, `nmap` is usually able to narrow down the options significantly.
+
+
+``--script [SCRIPT(S)]``: Nmap Scripting Engine (NSE)
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Example:** ``nmap -p139,445 --script smb-vuln-ms08-067 10.10.10.4``
+
+This command-line argument tells `nmap` to execute a script against the specified target. On `Kali Linux`, scripts are located in the ``/usr/share/nmap/scripts/`` directory. By specifying ports with ``-p``, you can tell `nmap` to run the script against those specific ports. For a good example of NSE usage, check out the :ref:`Legacy <Legacy Vulnerability Scanning>` walkthrough. For more information about scripts, check out `nmap`'s `official documentation`_.
+
+.. _official documentation: https://nmap.org/book/nse-usage.html

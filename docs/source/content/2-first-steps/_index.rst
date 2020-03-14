@@ -21,3 +21,4 @@ This walk-through, as with all the others throughout the guide, is cross-referen
    :caption: Chapter Contents
 
    0-enumeration.rst
+   1-vuln-scanning.rst

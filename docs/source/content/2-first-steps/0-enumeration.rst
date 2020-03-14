@@ -64,3 +64,9 @@ Excellent! We've identified two open ports: 139 and 445. According to `nmap`, th
     Nmap done: 1 IP address (1 host up) scanned in 10.96 seconds
 
 As you can see, this `nmap` scan provided significantly more detail about the target system. While it didn't tell us much more about the specific software running on the specified ports, it was able to determine that the target was running `Micrsoft Windows XP`, most likely with Service Pack 2 (SP2) or Service Pack 3 (SP3) installed.
+
+We've now identified two open ports on the system, as well as the target's OS. That's not a lot of attack surface, but perhaps we can learn something more about the target that will give us a clue as to where to go from here. After searching online, we discover that ports 139 and 445 are part of the `Server Message Block` (SMB) protocol, used "for sharing files, printers, serial ports, and communications abstractions such as named pipes and mail slots between computers." [#]_
+
+.. [#] https://www.samba.org/cifs/docs/what-is-smb.html
+
+The SMB service has seen more than its fair share of vulnerabilities and exploits over the years. Knowing that our target is running Windows XP and SMB, let's see what Google can tell us about this service.

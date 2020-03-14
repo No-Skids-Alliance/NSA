@@ -1,3 +1,5 @@
+.. _Glossary:
+
 Glossary
 ========
 
@@ -78,6 +80,12 @@ Remote-Access Trojan (RAT)
 .. index:: !Remote-Access Trojan (RAT)
 
 
+Remote Code Execution (RCE) Vulnerability
+  A flaw in a piece of software which allows attackers to run arbitrary commands or code on a target machine across a network connection.
+
+.. index:: !Remote Code Execution (RCE)
+
+
 report
   In the context of a penetration test, a written document containing vulnerabilities, exploits, mitigation and advice, created by the penetration tester for the client.
 
@@ -89,7 +97,7 @@ scope
 
 
 script kiddie / skid
-  An unskilled individual who uses other people's tools and exploits without understanding how or why they work.
+  An unskilled individual who uses other people's tools and exploits without attempting to understand how or why they work.
 
 
 shell script
