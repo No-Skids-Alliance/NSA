@@ -29,7 +29,7 @@ By sending carefully-crafted packets to a system, `nmap` can listen to the syste
 
 Using `nmap`
 ------------
-To use `nmap`, simply type ``nmap`` in a command prompt, followed by the necessary command-line arguments. Examples:
+To use `nmap`, simply type ``nmap`` in the command-line, followed by the necessary arguments. Examples:
 
 .. code-block:: none
 

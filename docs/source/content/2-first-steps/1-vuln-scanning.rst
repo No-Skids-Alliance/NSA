@@ -2,6 +2,12 @@
 
 Vulnerability Scanning
 ======================
+
++-------------+------------------+
+|**Reference**|:ref:`nmap <nmap>`|
++-------------+------------------+
+
+
 Typing ``windows xp smb`` into the search bar, Google provides us with some troubling auto-completion suggestions:
 
 .. figure:: images/1-xp-smb-google.png
