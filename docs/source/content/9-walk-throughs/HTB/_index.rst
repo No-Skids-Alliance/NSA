@@ -4,7 +4,11 @@ HackTheBox
 
 .. _HackTheBox: https://hackthebox.eu/
 
-As per the Terms of Service, walkthroughs are not allowed to be published for currently-active machines. Therefore, the following walkthroughs focus on retired machines.
+.. note::
+
+    As per the Terms of Service, walk-throughs are not allowed to be published for currently-active machines. Therefore, the following walk-throughs focus on retired machines.
+
+    To gain access to these retired machines, you'll need a VIP account on HackTheBox. VIP accounts are not free, but they are not prohibitively expensive, and offer many advantages over the free account.
 
 .. toctree::
    :caption: HackTheBox Targets

@@ -1,4 +1,4 @@
-CTF Walkthroughs
+CTF walk-throughs
 ================
 ":index:`Capture the Flag`" (CTF) games have become a popular way for hackers to legally practice their hacking skills and gain recognition throughout the community.
 
@@ -7,7 +7,7 @@ The following sections feature complete guides to various vulnerable systems fea
 .. _HackTheBox: https://hackthebox.eu/
 .. _VulnHub: https://www.vulnhub.com/
 
-These walkthroughs are organized by platform, then sorted alphabetically.
+These walk-throughs are organized by platform, then sorted alphabetically.
 
 .. toctree::
    :caption: CTF Platforms

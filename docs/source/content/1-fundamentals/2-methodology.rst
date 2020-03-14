@@ -41,7 +41,7 @@ Let's take a closer look at the PTES. Here's a summary breakdown:
     * Maintain and expand access.
 7. :index:`Reporting <report>`
     * Convey the results of the test to the client.
-    * High-level summary as well as low-level, in-depth analysis and walkthrough.
+    * High-level summary as well as low-level, in-depth analysis and walk-through.
 
 At first glance, this might seem pretty complicated. And if you take a closer look at the [PTES](http://www.pentest-standard.org/index.php/Main_Page), you'll find that there are a great many steps involved in each section of the test. However, the PTES and other methodologies aren't as complicated as they seem. They include detailed information and instructions, but this is mainly to prevent accidental oversight.
 
