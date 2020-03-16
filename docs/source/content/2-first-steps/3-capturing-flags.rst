@@ -1,5 +1,19 @@
+.. _Legacy Capturing Flags:
+
 Capturing Flags
 ===============
+
++-------------+--------------------------------+
+|**Reference**|:ref:`Metasploit`               |
+|             |                                |
+|             |:ref:`Meterpreter`              |
+|             |                                |
+|             |:ref:`Windows Post-Exploitation`|
++-------------+--------------------------------+
+
+.. index::
+   single: Meterpreter
+
 Now that we've got access to our target system, let's open a command prompt and see if we can find any juicy information. We'll do this by typing the ``shell`` command, which provides us access to the familiar `Windows` command-line:
 
 .. code-block:: none
