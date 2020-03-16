@@ -16,12 +16,14 @@ After connecting to the HackTheBox VPN and initializing the `Legacy` VM, we can 
     Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
     Nmap done: 1 IP address (0 hosts up) scanned in 3.07 seconds
 
-Some systems will not respond to pings despite being online. This is often true for Windows systems, such as our current target. This is why `nmap` reported that the host seems to be offline. Fortunately for us, we know that `Legacy` is online and listening, because the HackTheBox dashboard tells us so:
+Some systems will not respond to pings despite being online. This is often true for Windows systems, such as our current target. This is why `nmap` reported that the host seems to be offline. Fortunately for us, we know that `Legacy` is online and listening, because the HackTheBox dashboard tells us so (see Figure 1).
 
 .. figure:: images/0-legacy-online.png
    :width: 400 px
    :align: center
    :alt: Screenshot of HackTheBox, showing that `Legacy` is online.
+
+   Screenshot of HackTheBox, showing that `Legacy` is online.
 
 Next, we'll identify open ports on the target, as well as what software might be listening on each of those ports. Since we know the target isn't responding to ICMP pings, we'll use the ``-Pn`` command-line argument to tell `nmap` to scan without pinging first:
 

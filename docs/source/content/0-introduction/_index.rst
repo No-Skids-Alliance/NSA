@@ -22,6 +22,8 @@ It's totally fine to be an amateur, to make mistakes, to lack knowledge and skil
    :align: center
    :alt: Sucking at something is the first step to becoming sorta good at something.
 
+   "Sucking at something is the first step to becoming sorta good at something." -Jake the Dog
+
    Image and quote from `Adventure Time by Pendleton Ward`_
 
 .. _Adventure Time by Pendleton Ward: https://en.wikipedia.org/wiki/Adventure_Time

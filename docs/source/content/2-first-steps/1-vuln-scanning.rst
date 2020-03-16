@@ -8,19 +8,23 @@ Vulnerability Scanning
 +-------------+------------------+
 
 
-Typing ``windows xp smb`` into the search bar, Google provides us with some troubling auto-completion suggestions:
+Typing ``windows xp smb`` into the search bar, Google provides us with some troubling auto-completion suggestions (see Figure 2).
 
 .. figure:: images/1-xp-smb-google.png
    :width: 400 px
    :align: center
    :alt: Screenshot of Google auto-complete results, with 'exploit' in the top three.
 
-Let's go ahead and search for ``windows xp smb exploit`` and see what comes up:
+   Screenshot of Google auto-complete results, with 'exploit' in the top three.
+
+Let's go ahead and search for ``windows xp smb exploit`` and see what comes up (see Figure 3).
 
 .. figure:: images/2-xp-smb-exploit-suggestions.png
    :width: 400 px
    :align: center
    :alt: The top three Google results, containing the strings 'ms08-067' and 'ms17-010'.
+
+   The top three Google results, containing the strings **ms08-067** and **ms17-010**.
 
 The top three results mention **MS08-067** and **MS17-010**. These strange codes refer to Microsoft's security patches, which are named by the year and patch number. **MS08-067** was the 67th patch released in 2008, and **MS17-010** was the 10th patch released in 2017. Let's take a closer look at these two patches. Performing a Google search for each, you'll find a Microsoft page describing the vulnerabilities in more detail. Looking at the security bulletin for **MS08-067** [#]_, we see that it involves a **Remote Code Execution (RCE)** vulnerability, and is rated "Critical." Likewise, the bulletin for **MS17-010** [#]_ also involves a Critical RCE vulnerability.
 
