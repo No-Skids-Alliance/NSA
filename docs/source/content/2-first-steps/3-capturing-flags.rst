@@ -26,11 +26,11 @@ In most CTF competitions, you'll be hunting for "flags," which are typically sho
 
      Directory of C:\
 
-    16/03/2017  07:30 ��                 0 AUTOEXEC.BAT
-    16/03/2017  07:30 ��                 0 CONFIG.SYS
-    16/03/2017  08:07 ��    <DIR>          Documents and Settings
-    16/03/2017  07:33 ��    <DIR>          Program Files
-    16/03/2020  12:32 ��    <DIR>          WINDOWS
+    16/03/2017  07:30                  0 AUTOEXEC.BAT
+    16/03/2017  07:30                  0 CONFIG.SYS
+    16/03/2017  08:07     <DIR>          Documents and Settings
+    16/03/2017  07:33     <DIR>          Program Files
+    16/03/2020  12:32     <DIR>          WINDOWS
                    2 File(s)              0 bytes
                    3 Dir(s)   6.473.027.584 bytes free
 
@@ -45,11 +45,11 @@ On this system, user accounts are stored in the ``Documents and Settings`` folde
 
      Directory of C:\Documents and Settings
 
-    16/03/2017  08:07 ��    <DIR>          .
-    16/03/2017  08:07 ��    <DIR>          ..
-    16/03/2017  08:07 ��    <DIR>          Administrator
-    16/03/2017  07:29 ��    <DIR>          All Users
-    16/03/2017  07:33 ��    <DIR>          john
+    16/03/2017  08:07     <DIR>          .
+    16/03/2017  08:07     <DIR>          ..
+    16/03/2017  08:07     <DIR>          Administrator
+    16/03/2017  07:29     <DIR>          All Users
+    16/03/2017  07:33     <DIR>          john
                    0 File(s)              0 bytes
                    5 Dir(s)   6.473.027.584 bytes free
 
@@ -66,9 +66,9 @@ There appear to be two users on this system: ``Administrator`` and ``john``. Let
 
      Directory of C:\Documents and Settings\john\Desktop
 
-    16/03/2017  08:19 ��    <DIR>          .
-    16/03/2017  08:19 ��    <DIR>          ..
-    16/03/2017  08:19 ��                32 user.txt
+    16/03/2017  08:19     <DIR>          .
+    16/03/2017  08:19     <DIR>          ..
+    16/03/2017  08:19                 32 user.txt
                    1 File(s)             32 bytes
                    2 Dir(s)   6.473.027.584 bytes free
 
@@ -91,9 +91,9 @@ Bingo! There's our first flag! We can now submit that strange-looking string (``
 
      Directory of C:\Documents and Settings\Administrator\Desktop
 
-    16/03/2017  08:18 ��    <DIR>          .
-    16/03/2017  08:18 ��    <DIR>          ..
-    16/03/2017  08:18 ��                32 root.txt
+    16/03/2017  08:18     <DIR>          .
+    16/03/2017  08:18     <DIR>          ..
+    16/03/2017  08:18                 32 root.txt
                    1 File(s)             32 bytes
                    2 Dir(s)   6.473.027.584 bytes free
 
@@ -109,6 +109,6 @@ Excellent! We've now obtained the "root" flag, and can claim it on `HackTheBox`.
 
 .. note::
 
-    While using ``exit`` twice has disconnected us from the target system, the `Meterpreter` payload still exists on the target system. This is generally considered bad form in a penetration test, as we're leaving behind malicious payloads without cleaning up our tracks. For the purposes of this walk-through, however, we'll overlook this oversight.
+    At the end of a pentest, it's important to clean up after yourself. By typing ``exit`` twice, we quit the command shell as well as the `Meterpreter` session, disconnecting from the machine, without taking the time to clean up our tracks. This is typically considered bad form, as it could leave backdoors or exploits running on the target. In this case, however, the only exploit we uploaded to the system was `Meterpreter`, and if you take a second look at Figure 9, you'll see that `Meterpreter` automatically deleted the uploaded executable file before giving us a command prompt. Therefore, clean-up wasn't really necessary. But in the future, you'll want to be sure you clean up after yourself. For `HackTheBox` machines, this can be done by reverting the machine, but for real-world targets, you won't have this luxury.
 
 Congratulations! You've successfully completed your first `HackTheBox` CTF challenge, and gained some valuable experience in the process. Feel free to continue reading through the rest of the chapters in order, or skip ahead to the :ref:`walkthroughs` section to see walk-throughs of other machines!

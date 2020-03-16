@@ -1,4 +1,6 @@
-CTF walk-throughs
+.. _walkthroughs:
+
+CTF Walk-Throughs
 =================
 ":index:`Capture the Flag`" (CTF) games have become a popular way for hackers to legally practice their hacking skills and gain recognition throughout the community.
 
