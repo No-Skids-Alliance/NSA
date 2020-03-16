@@ -1,5 +1,21 @@
+.. _Glossary:
+
 Glossary
 ========
+
+bind shell
+  A piece of software that provides a remote attacker with command-line access to a target system by opening a port on the target system to which the attacker's system can connect. Similar to a reverse shell.
+
+
+Capture the Flag (CTF)
+  A game in which hackers attempt to penetrate a specially-designed target system or network. CTFs are a good way to legally practice hacking skills and gain recognition in the hacker community.
+
+.. index:: !Capture the Flag
+
+
+enumeration
+  The process of collecting useful information about a target, such as open ports, software version numbers, etc.
+
 
 exploit
   1. A piece of software that takes advantage of a vulnerability to compromise a computer system or network.
@@ -54,6 +70,10 @@ Open-Source Intelligence (OSINT)
 .. index:: !OSINT
 
 
+payload
+  A piece of software included in an exploit, designed to perform a specific task on the target system, such as creating a bind shell or reverse shell.
+
+
 penetration test / pentest
   The use of adversarial tactics to simulate an attack against systems, networks, individuals or groups, with the intent of revealing and mitigating vulnerabilities.
 
@@ -62,14 +82,28 @@ penetration tester / pentester
   Someone who conducts penetration tests.
 
 
-Remote-Access Trojan / RAT
+port
+  A communication endpoint through which software can communicate between different systems on a network.
+
+
+Remote-Access Trojan (RAT)
   A malware program used by intruders to remotely control target systems.
 
 .. index:: !Remote-Access Trojan (RAT)
 
 
+Remote Code Execution (RCE) Vulnerability
+  A flaw in a piece of software which allows attackers to run arbitrary commands or code on a target machine across a network connection.
+
+.. index:: !Remote Code Execution (RCE)
+
+
 report
   In the context of a penetration test, a written document containing vulnerabilities, exploits, mitigation and advice, created by the penetration tester for the client.
+
+
+reverse shell
+  A piece of software that provides a remote attacker with command-line access to a target system by connecting to a port on the attacker's system which was opened for this purpose. Similar to a bind shell.
 
 
 scope
@@ -79,7 +113,7 @@ scope
 
 
 script kiddie / skid
-  An unskilled individual who uses other people's tools and exploits without understanding how or why they work.
+  An unskilled individual who uses other people's tools and exploits without attempting to understand how or why they work.
 
 
 shell script
