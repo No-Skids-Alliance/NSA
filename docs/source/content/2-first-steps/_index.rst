@@ -23,3 +23,4 @@ This walk-through, as with all the others throughout the guide, is cross-referen
    0-enumeration.rst
    1-vuln-scanning.rst
    2-exploitation.rst
+   3-capturing-flags.rst
