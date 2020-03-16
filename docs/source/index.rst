@@ -9,6 +9,16 @@ No Skids Allowed! A Pentester's Primer
 
     The contents of this compendium are provided as educational and reference material for those interested in **legal** hacking. They are not intended to promote nor encourage illegal activities. The creators of this guide are not responsible for the actions of its readers.
 
+----
+
+**CHANGE LOG**
+
+This version of `No Skids Allowed!` was published March 16th, 2020.
+
+* **2020.03.16**: Finished "First Steps" chapter, detailing walk-through of `Legacy` from `HackTheBox`.
+
+----
+
 .. toctree::
    :caption: Table of Contents
    :maxdepth: 3
