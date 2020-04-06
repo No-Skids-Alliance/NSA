@@ -13,6 +13,10 @@ Presently, two of the biggest names in desktop virtualization are `VMWare`_ and 
 .. _VMWare: https://www.vmware.com/
 .. _VirtualBox: https://www.virtualbox.org/
 
+.. note::
+
+    Throughout this book, I'll be using `VirtualBox` in our tutorials, as it is free and open-source. If you prefer to use `VMWare`, you may need to adjust some of the instructions accordingly.
+
 Hackers use all sorts of OSes with various configurations, often using virtualization to run more specialized systems like :index:`Kali Linux` from within their host OS. These guest OSes are used to conduct attacks, while notes and reports are kept on the host OS. When the job is complete, post-pentest cleanup is as easy as deleting or reverting the VM.
 
 Despite the freedom granted by virtualization, hackers must still make a choice of what guest OSes to use, and for which purposes.
