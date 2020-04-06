@@ -4,7 +4,7 @@
 ==========================
 
 .. index::
-   single:: !nmap
+   single: !nmap
 
 +-----------+-----------------------------+
 |**OS**     |All major operating systems. |

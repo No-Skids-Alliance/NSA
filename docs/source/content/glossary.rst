@@ -3,6 +3,9 @@
 Glossary
 ========
 
+Address Resolution Protocol (ARP)
+  A network protocol used to determine the hardware (MAC) address of a device associated with a specified IP address. It is used when a device wants to communicate with another device on the local network. The sending device uses ARP to translate an IP address into a MAC address, enabling it to communicate directly with the device. ARP requests can be seen by all devices on a network.
+
 bind shell
   A piece of software that provides a remote attacker with command-line access to a target system by opening a port on the target system to which the attacker's system can connect. Similar to a reverse shell.
 
