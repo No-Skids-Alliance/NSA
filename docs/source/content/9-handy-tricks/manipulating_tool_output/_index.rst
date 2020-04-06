@@ -7,3 +7,5 @@ When using tools on the command-line, sometimes you want to be able to manipulat
 
 .. toctree::
    :caption: Section Contents
+
+   tee.rst

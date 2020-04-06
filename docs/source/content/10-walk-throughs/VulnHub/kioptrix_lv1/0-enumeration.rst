@@ -155,3 +155,9 @@ With `Apache` out of the way, our next target for enumeration is `Samba`, on por
         client max protocol = SMB3
 
     This will tell `Kali` to allow the use of the outdated `Samba` protocols necessary to interact with our target.
+
+.. index::
+   single: enum4linux
+   single: tee
+
+One of the most useful utilities for enumerating `Samba` is `enum4linux`. This tool connects to the target system and attempts to gather as much information as it possibly can about the target. As a result, it can generate a `ton` of information. For this reason, I like to save its output into a file so that I can parse through it again later if I overlooked something the first time around. To do this, I'll use the `tee` utility to save the output of the `enum4linux` tool into a file called ``kioptrix_lv1.enum4linux``:
