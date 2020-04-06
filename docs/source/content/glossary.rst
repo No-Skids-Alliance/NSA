@@ -34,8 +34,6 @@ Google Dork / * Dork
 Google-Fu
   The ability to effectively employ search engines to obtain useful information.
 
-.. index:: !Google-Fu
-
 
 hack
   1. To write (software) or modify (software or hardware) in a clever or skillful way.
@@ -90,13 +88,9 @@ port
 Remote-Access Trojan (RAT)
   A malware program used by intruders to remotely control target systems.
 
-.. index:: !Remote-Access Trojan (RAT)
-
 
 Remote Code Execution (RCE) Vulnerability
   A flaw in a piece of software which allows attackers to run arbitrary commands or code on a target machine across a network connection.
-
-.. index:: !Remote Code Execution (RCE)
 
 
 report

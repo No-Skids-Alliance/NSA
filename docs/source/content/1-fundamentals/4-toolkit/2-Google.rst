@@ -1,7 +1,5 @@
 Search Engines and Google-Fu
 ============================
-.. index::
-   single: Google-Fu
 
 Perhaps the most important tool in your arsenal, search engines provide a means of quickly and efficiently sorting through the totality of human knowledge. Sometimes referred to as `Google-Fu`, true search-engine mastery will enable you to learn just about anything, and plays a pivotal role in nearly every aspect of a hacker's craft.
 
