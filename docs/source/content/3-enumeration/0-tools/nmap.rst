@@ -3,8 +3,7 @@
 `nmap`: the Network Mapper
 ==========================
 
-.. index::
-   single: !nmap
+.. index:: !nmap
 
 +-----------+-----------------------------+
 |**OS**     |All major operating systems. |

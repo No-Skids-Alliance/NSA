@@ -2,12 +2,6 @@ Virtual Machines and Operating Systems
 ======================================
 Perhaps the most fundamental choice in designing your hacker toolkit will be which Operating System (OS) to use. Prior to virtualization technology, the choice of OS was crucial, as it limited the range of tools available. Hackers often chose to use Linux, as it supported the largest range of pentesting tools at the lowest up-front cost. However, with the rise of virtual machines (VMs), which allow users to run multiple `guest` OSes inside a `host` OS, hackers were granted the freedom to run whichever host and guest OSes they wanted. In recent years, virtualization has become one of the most prevalent and important technologies, with numerous virtualization options available to users.
 
-.. index::
-   single: VMWare
-   single: VirtualBox
-   single: virtualization
-   single: virtual machine
-
 Presently, two of the biggest names in desktop virtualization are `VMWare`_ and `VirtualBox`_, the former a commercial entity, the latter open-source. Both offer free software for running virtual machines.
 
 .. _VMWare: https://www.vmware.com/
@@ -17,7 +11,7 @@ Presently, two of the biggest names in desktop virtualization are `VMWare`_ and 
 
     Throughout this book, I'll be using `VirtualBox` in our tutorials, as it is free and open-source. If you prefer to use `VMWare`, you may need to adjust some of the instructions accordingly.
 
-Hackers use all sorts of OSes with various configurations, often using virtualization to run more specialized systems like :index:`Kali Linux` from within their host OS. These guest OSes are used to conduct attacks, while notes and reports are kept on the host OS. When the job is complete, post-pentest cleanup is as easy as deleting or reverting the VM.
+Hackers use all sorts of OSes with various configurations, often using virtualization to run more specialized systems like `Kali Linux` from within their host OS. These guest OSes are used to conduct attacks, while notes and reports are kept on the host OS. When the job is complete, post-pentest cleanup is as easy as deleting or reverting the VM.
 
 Despite the freedom granted by virtualization, hackers must still make a choice of what guest OSes to use, and for which purposes.
 
@@ -75,7 +69,7 @@ Much like Windows, Linux VMs are also quite useful for testing attacks and mitig
 
 .. note::
 
-    In the InfoSec world, the `Kali Linux`_ distribution has become the de facto standard. The distribution includes a robust pentesting toolkit, pre-configured for the sake of simplicity. As such, the remainder of this guide will assume the use of :index:`Kali Linux`, unless otherwise stated. That being said, the tools and techniques in the guide are not specific to Kali, and can oft be used with little or no alteration in other Linux distributions.
+    In the InfoSec world, the `Kali Linux`_ distribution has become the de facto standard. The distribution includes a robust pentesting toolkit, pre-configured for the sake of simplicity. As such, the remainder of this guide will assume the use of `Kali Linux`, unless otherwise stated. That being said, the tools and techniques in the guide are not specific to Kali, and can oft be used with little or no alteration in other Linux distributions.
 
     Readers unfamiliar with Kali should read `the Kali documentation`_ and/or the free `Kali Linux Revealed`_ ebook. This guide assumes a basic familiarity with Kali.
 

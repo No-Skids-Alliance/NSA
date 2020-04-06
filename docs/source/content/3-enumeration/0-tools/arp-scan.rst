@@ -3,8 +3,7 @@
 `arp-scan`: The ARP Scanner
 ===========================
 
-.. index::
-   single: !arp-scan
+.. index:: !arp-scan
 
 +-----------+--------------------------------------+
 |**OS**     | Linux / MacOS / BSD / Solaris        |

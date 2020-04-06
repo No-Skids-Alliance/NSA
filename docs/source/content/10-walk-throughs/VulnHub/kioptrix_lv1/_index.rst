@@ -3,8 +3,6 @@
 Kioptrix Level 1
 ================
 
-.. index:: !Kioptrix Level 1 (VulnHub)
-
 Originally released in February of 2010, this `VulnHub`_ VM is aimed at novice hackers, and is designed to teach the basics. This VM can be downloaded from its `official VulnHub page <https://www.vulnhub.com/entry/kioptrix-level-1-1,22/>`_. Alternatively, the image can be downloaded from `this mega.nz mirror <https://mega.nz/file/VnIkXCpR#9i2noDIXOqhwByhQ_rPuvFlpFjkQ4H-CYeTBQuakbzE>`_.
 
 .. _VulnHub: https://www.vulnhub.com/

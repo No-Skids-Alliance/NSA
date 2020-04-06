@@ -1,6 +1,3 @@
-.. index::
-   single: reporting
-
 Reporting
 ---------
 When a client purchases a penetration test, the real return on their investment is the report. Without the report, the pentest is pointless. The report must be comprehensive and well-crafted, and typically includes two primary sections:

@@ -60,8 +60,6 @@ hacking
 hacktivism
   Using hacking techniques and skills to gain unauthorized access to computer files, systems, and/or networks, in order to further social or political ends.
 
-.. index:: !hacktivism
-
 
 malware
   Software designed to disrupt, damage, or gain unauthorized access to computer systems.
@@ -111,8 +109,6 @@ reverse shell
 
 scope
   The systems, locations, techniques and tools which can be used in a specific `penetration test`.
-
-.. index:: !scope
 
 
 script kiddie / skid
