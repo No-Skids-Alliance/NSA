@@ -15,3 +15,4 @@ These walk-throughs are organized by platform, then sorted alphabetically.
    :caption: CTF Platforms
 
    HTB/_index.rst
+   VulnHub/_index.rst

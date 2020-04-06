@@ -12,11 +12,11 @@
 |**Website**| https://github.com/royhills/arp-scan |
 +-----------+--------------------------------------+
 
-+------------------------------------------------------+
-|             **Reference  Walk-Throughs**             |
-+======================================================+
-|:ref:`Kioptrix Level 1 <Kioptrix Level 1 Enumeration>`|
-+------------------------------------------------------+
++---------+------------------------------------------------------+
+|                  **Reference  Walk-Throughs**                  |
++=========+======================================================+
+|`VulnHub`|:ref:`Kioptrix Level 1 <Kioptrix Level 1 Enumeration>`|
++---------+------------------------------------------------------+
 
 
 
@@ -35,7 +35,7 @@ This utility will reveal systems even if they don't respond to an ICMP Ping requ
 Using `arp-scan`
 ----------------
 
-.. warning::
+.. note::
 
     The `arp-scan` utility requires root privileges to run, and should therefore be run with `sudo` or as the ``root`` user.
 

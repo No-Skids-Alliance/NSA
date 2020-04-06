@@ -3,12 +3,17 @@
 Enumeration
 ===========
 
-.. index::
-   single: arp-scan
-
 +-------------+--------------------------+
 |**Reference**|:ref:`arp-scan <arp-scan>`|
+|             |                          |
+|             |:ref:`nmap <nmap>`        |
 +-------------+--------------------------+
+
+Finding the Target's IP
+-----------------------
+
+.. index::
+   single: arp-scan
 
 Before we can start scanning our target for open ports and running services, we must first identify where it is on the network. There are a number of ways to do this, but for the purposes of this tutorial, we'll use the `arp-scan` utility.
 
@@ -50,3 +55,14 @@ Here's what the output of the tool looks like:
     Ending arp-scan 1.9.7: 256 hosts scanned in 2.113 seconds (121.15 hosts/sec). 3 responded
 
 In this example, we can see that `arp-scan` identified our local IP as ``10.1.1.100``, as seen in the top-right corner of the tool's output. Following this, the tool lists the IPs and MAC addresses of the rest of the systems discovered on the network. The ``10.1.1.1`` IP is managed by `VirtualBox`'s virtual networking subsystem. ``10.1.1.102``, on the other hand, is the IP of `Kioptrix Level 1`, our target for this exercise.
+
+
+.. _Kioptrix Level 1 Port Scanning:
+
+Scanning for Open Ports
+-----------------------
+
+.. index::
+   single: nmap
+
+Now that we've determined the IP address of the target system, let's see what ports are open. For this, we'll use `nmap`.
