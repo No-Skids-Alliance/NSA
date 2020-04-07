@@ -3,11 +3,15 @@
 Enumeration
 ===========
 
-+-------------+--------------------------+
-|**Reference**|:ref:`arp-scan <arp-scan>`|
-|             |                          |
-|             |:ref:`nmap <nmap>`        |
-+-------------+--------------------------+
++-------------+------------------------------+
+|**Reference**|:ref:`arp-scan <arp-scan>`    |
+|             |                              |
+|             |:ref:`enum4linux <enum4linux>`|
+|             |                              |
+|             |:ref:`Metasploit <Metasploit>`|
+|             |                              |
+|             |:ref:`nmap <nmap>`            |
++-------------+------------------------------+
 
 Finding the Target's IP
 -----------------------
@@ -91,7 +95,7 @@ Now that we've determined the IP address of the target system, let's see what po
     OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
     Nmap done: 1 IP address (1 host up) scanned in 33.98 seconds
 
-Based on this quick scan, we can see that the system appears to be running `Linux`, with a number of open ports. We see `OpenSSH` on port 22, `Apache httpd 1.3.20` on ports 80 and 443, `Samba smbd` on port 139, and `RPC` (Remote Procedure Call) on ports 111 and 32768. We can also see that the target is running `Red-Hat Linux`, based on the information provided by `Apache`.
+Based on this quick scan, we can see that the system appears to be running `Linux`, with a number of open ports. We see `OpenSSH` on port 22, `Apache httpd 1.3.20` on ports 80 and 443, `Samba smbd` on port 139, and `RPC` (Remote Procedure Call) on ports 111 and 32768. We can also see that the target is running `Red Hat Linux`, based on the information provided by `Apache`.
 
 Now that we know what ports are available, we should prioritize them to determine which would be the most valuable targets for further enumeration. Based on personal experience, I will say that `OpenSSH` isn't likely to provide much data for enumeration, nor is `RPC` on ports 111 or 32768. As a result, we'll skip enumerating those ports, and will return to them only if our exploration of the `Apache` and `Samba` services prove fruitless.
 
@@ -133,13 +137,15 @@ Looking back to our `nmap` scan, we can see some additional details about the `A
 From this information, we know the following:
 
 * `Apache` is version 1.3.20.
-* The Operating System is `Red-Hat Linux`.
+* The Operating System is `Red Hat Linux`.
 * `Apache` has at least two modules installed: `mod_ssl` version 2.8.4, and `OpenSSL` version 0.9.6b
 
 This is all useful information, so we'll make a note of it.
 
 Our next course of action could be to use a tool like `dirbuster` to attempt a brute-force enumeration attack on the target in order to see if there are any secret pages or directories on the server, but this is time-consuming, and is very noisy. In a real penetration test, using such a tool is likely to raise some alarms and get you caught. So, for now, we'll skip this step, returning to it later if we're unable to find another vector for attack.
 
+
+.. _Kioptrix Level 1 Samba Enumeration:
 
 Enumerating Samba
 -----------------
@@ -160,4 +166,101 @@ With `Apache` out of the way, our next target for enumeration is `Samba`, on por
    single: enum4linux
    single: tee
 
-One of the most useful utilities for enumerating `Samba` is `enum4linux`. This tool connects to the target system and attempts to gather as much information as it possibly can about the target. As a result, it can generate a `ton` of information. For this reason, I like to save its output into a file so that I can parse through it again later if I overlooked something the first time around. To do this, I'll use the `tee` utility to save the output of the `enum4linux` tool into a file called ``kioptrix_lv1.enum4linux``:
+One of the most useful utilities for enumerating `Samba` is `enum4linux`. This tool connects to the target system and attempts to gather as much information as it possibly can about the target. As a result, it can generate a `ton` of information. For this reason, I like to save its output into a file so that I can parse through it again later if I overlooked something the first time around. To do this, I'll use the `tee` utility to save the output of the `enum4linux` tool into a file called ``kioptrix_lv1.enum4linux``. As for the `enum4linux` scanner itself, I'll just pass the IP address, as the scanner uses a robust set of enumeration options by default:
+
+.. code-block:: none
+
+    kali@kali:~$ sudo enum4linux 10.1.1.102 | tee kioptrix_lv1.enum4linux
+    [sudo] password for kali:
+    Starting enum4linux v0.8.9 ( http://labs.portcullis.co.uk/application/enum4linux/ ) on Mon Apr  6 20:00:10 2020
+
+     ==========================
+    |    Target Information    |
+     ==========================
+    Target ........... 10.1.1.102
+    RID Range ........ 500-550,1000-1050
+    Username ......... ''
+    Password ......... ''
+    Known Usernames .. administrator, guest, krbtgt, domain admins, root, bin, none
+    [...]
+    S-1-5-21-4157223341-3243572438-1405127623-1000 KIOPTRIX\root (Local User)
+    S-1-5-21-4157223341-3243572438-1405127623-1001 KIOPTRIX\root (Local Group)
+    [...]
+    S-1-5-21-4157223341-3243572438-1405127623-1006 KIOPTRIX\adm (Local User)
+    [...]
+    S-1-5-21-4157223341-3243572438-1405127623-1009 KIOPTRIX\adm (Local Group)
+    [...]
+
+Having saved the output of the tool with `tee`, if we want to go through it again later, we can simply open the ``kioptrix_lv1.enum4linux`` file with our favorite text editor (or the `less` utility in the command line) and peruse it at our leisure.
+
+Browsing through the output of the command, we learn that the host calls itself ``KIOPTRIX``, and we learn the names of a number of the users and groups on the system. Some of the options don't work so well, perhaps because (as of the time this was written) the last update to the script was over 2 years ago.
+
+.. index::
+   single: Metasploit
+
+We've gathered a good amount of information with `enum4linux`, but we still don't know what version of `Samba` is running on the target. When enumerating a system, one of the most important pieces of information you can gather about a service is the version number, which can help you learn what vulnerabilities might exist in that software. Fortunately for us, there's a `Metasploit` module that serves this very purpose, enabling us to identify the version of `Samba` running on our target.
+
+To use this module, let's first launch `Metasploit`. Open the `Kali` menu, then type ``metasploit``, then click the `Metasploit framework` launcher. This will initialize and launch the `Metasploit` console. Once you see the ``msf5`` command prompt, type the following:
+
+.. code-block:: none
+
+    use auxiliary/scanner/smb/smb_version
+
+This will select the `smb_version` scanner module. Next, use the ``show options`` command to see what options need to be set. You'll see that there's a required value called ``RHOSTS``. This is where we'll need to store the IP address of our target. To do this, type:
+
+.. code-block:: none
+
+    set RHOSTS 10.1.1.102
+
+Finally, type ``run`` to launch the scanner. It will return the `Samba` version information:
+
+.. code-block:: none
+
+    msf5 auxiliary(scanner/smb/smb_version) > run
+
+    [*] 10.1.1.102:139        - Host could not be identified: Unix (Samba 2.2.1a)
+    [*] 10.1.1.102:445        - Scanned 1 of 1 hosts (100% complete)
+    [*] Auxiliary module execution completed
+
+Despite saying ``Host could not be identified``, `Metasploit` has revealed the `Samba` version number: 2.2.1a.
+
+
+Operating System Detection
+--------------------------
+
+Having completed our enumeration of `Apache` and `Samba`, we now know that the following software and modules are running on the target:
+
+* `Red Hat Linux` version ???
+* `Apache` verision 1.3.20
+* `mod_ssl` version 2.8.4
+* `OpenSSL` version 0.9.6b
+* `Samba` version 2.2.1a
+* `OpenSSH` version 2.9p2
+
+There's only one version number we're missing: that of the operating system. How can we determine what OS is currently installed, with the information we currently possess? That's right: it's time to put our Google-fu to work.
+
+By searching for a specific package number, combined with the name of the operating system, we can often deduce the OS version. This is because specific OS releases are shipped with specific versions of bundled packages. `Apache` is a good candidate, as nearly all major `Linux` distributions ship with `Apache` as the default bundled web server. Therefore, let's search for ``red hat apache 1.3.20`` and see what we can find (see Figure 3).
+
+.. figure:: images/2-Google-Fu.png
+   :width: 400 px
+   :align: center
+   :alt: Search results for "red hat apache 1.3.20".
+
+   Search results for "red hat apache 1.3.20".
+
+The first link leads us to `www.rpm-find.net <http://www.rpm-find.net/linux/RPM/archive.download.redhat.com/pub/redhat/linux/7.2/en/os/i386/RedHat/RPMS/apache-1.3.20-16.i386.html>`_, where we discover that this version of `Apache` was shipped with `Red Hat Linux` version 7.2 (see Figure 4).
+
+.. figure:: images/3-Red-Hat-Version.png
+   :width: 400 px
+   :align: center
+   :alt: Red Hat Linux version 7.2.
+
+   `Red Hat Linux` version 7.2.
+
+Success! We've now determined the version numbers for all visible software on the system (with the exception of the RPC service listening on ports 111 and 32768).
+
+.. note::
+
+    You might notice that we've completely skipped any form of UDP port enumeration. Admittedly, this is a considerable oversight. However, UDP port scanning and enumeration can take a significant amount of time, due to the nature of how UDP traffic operates. In addition, TCP services are significantly more common, and provide a much more accessible attack surface.
+
+    As with RPC and `OpenSSH`, we can typically reserve extensive UDP enumeration as a last resort, if nothing else works. That being said, while a UDP port scan might take significant time, there's no reason why you can't be running a `nmap` UDP scan in the background while you perform the remainder of your TCP enumeration techniques.

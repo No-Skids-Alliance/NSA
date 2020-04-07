@@ -92,9 +92,9 @@ Aha! There's a ``user.txt`` file. Let's see what's inside. To do this, we'll use
 
     C:\WINDOWS\system32>type "C:\Documents and Settings\john\Desktop\user.txt"
     type "C:\Documents and Settings\john\Desktop\user.txt"
-    e69af0e4f443de7e36876fda4ec7644f
+    {{{user flag redacted}}}
 
-Bingo! There's our first flag! We can now submit that strange-looking string (``e69af0e4f443de7e36876fda4ec7644f``) in the `HackTheBox` page for `Legacy` to claim the User flag. Next, let's see what's on the ``Administrator`` account's desktop:
+Bingo! There's our first flag! We can now submit it in the `HackTheBox` page for `Legacy` to claim the User flag. Next, let's see what's on the ``Administrator`` account's desktop:
 
 .. code-block:: none
 
@@ -117,7 +117,7 @@ We've found a ``root.txt`` file! This will typically contain the "root" flag, wh
 
     C:\WINDOWS\system32>type "C:\Documents and Settings\Administrator\Desktop\root.txt"
     type "C:\Documents and Settings\Administrator\Desktop\root.txt"
-    993442d258b0e0ec917cae9e695d5713
+    {{{root flag redacted}}}
 
 Excellent! We've now obtained the "root" flag, and can claim it on `HackTheBox`. At this point, we've successfully completed this CTF system! We can now disconnect from the box using the ``exit`` command twice, once to leave the `Windows` command terminal, and again to exit `Meterpreter`.
 

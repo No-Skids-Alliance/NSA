@@ -38,7 +38,7 @@ Using `arp-scan`
 
     The `arp-scan` utility requires root privileges to run, and should therefore be run with `sudo` or as the ``root`` user.
 
-To use `arp-scan`, simply type ``sudo arp-scan`` in the command-line, followed by the necessary command-line arguments. Examples:
+To use `arp-scan`, simply type ``sudo arp-scan`` in the command line, followed by the necessary command-line arguments. Examples:
 
 .. code-block:: none
 
