@@ -1,7 +1,7 @@
 .. _tee:
 
-`tee`: Transparently Save Output from Tools
-===========================================
+tee: Transparently Save Output from Tools
+=========================================
 
 .. index:: !tee
 
@@ -17,8 +17,8 @@
 
 
 
-What is `tee`?
---------------
+What is tee?
+------------
 The `tee` utility transparently pipes the output of a command-line utility into a text file, while continuing to display the output of the command as usual.
 
 
@@ -27,8 +27,8 @@ How does it work?
 By piping the output of a command into `tee`, the **STDOUT** (standard output) of that command becomes the **STDIN** (standard input) of `tee`. When `tee` receives this input, it sends the data to its own **STDOUT** (printing it to the screen) while simultaneously saving the output to a file.
 
 
-Using `tee`
------------
+Using tee
+---------
 
 .. note::
 

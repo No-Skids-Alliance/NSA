@@ -1,7 +1,7 @@
 .. _arp-scan:
 
-`arp-scan`: The ARP Scanner
-===========================
+arp-scan: The ARP Scanner
+=========================
 
 .. index:: !arp-scan
 
@@ -19,8 +19,8 @@
 
 
 
-What is `arp-scan`?
--------------------
+What is arp-scan?
+-----------------
 The `arp-scan` utility scans networks to determine which IPs have been associated with which MAC addresses. It can be used to enumerate live systems on a network, and is even able to reveal systems that don't respond to ICMP Ping requests.
 
 
@@ -31,8 +31,8 @@ The `arp-scan` utility sends ARP request packets for each of the specified IPs o
 This utility will reveal systems even if they don't respond to an ICMP Ping request, because ARP is a fundamental network protocol used by all systems to enable communication with other devices. If a system did not reply to ARP requests, it would not be able to interact with other devices on the network.
 
 
-Using `arp-scan`
-----------------
+Using arp-scan
+--------------
 
 .. note::
 

@@ -1,7 +1,7 @@
 .. _nmap:
 
-`nmap`: the Network Mapper
-==========================
+nmap: the Network Mapper
+========================
 
 .. index:: !nmap
 
@@ -21,8 +21,8 @@
 
 
 
-What is `nmap`?
----------------
+What is nmap?
+-------------
 The `nmap` utility is one of the oldest and most-used tools in the hacker's arsenal. As the name implies, it allows you to map networks, identifying not only what machines exist on a network, but also which ports are open on those machines. It also includes a great deal of additional functionality, such as identifying the software and operating systems running on target systems. It also has the ability to run scripts to identify vulnerabilities or reveal additional information about targets. In fact, entire books have been written about `nmap`, exploring its various capabilities and functionality.
 
 
@@ -33,8 +33,8 @@ By sending carefully-crafted packets to a system, `nmap` can listen to the syste
 .. _TCP three-way handshake: https://en.wikipedia.org/wiki/Handshaking#TCP_three-way_handshake
 
 
-Using `nmap`
-------------
+Using nmap
+----------
 To use `nmap`, simply type ``nmap`` in the command-line, followed by the necessary arguments. Examples:
 
 .. code-block:: none

@@ -26,9 +26,6 @@ Now that we've got access to our target system, let's open a command prompt and 
 
     C:\WINDOWS\system32>
 
-.. index::
-   single: Capture the Flag
-
 In most CTF competitions, you'll be hunting for "flags," which are typically short strings contained in text files which are intended to prove that you've successfully completed the challenge. On `HackTheBox`, these flags are typically stored in users' Desktop folders. Let's see which users we can access on this system, using the ``dir`` command. First, we'll get a directory listing of the ``C:\`` drive:
 
 .. code-block:: none

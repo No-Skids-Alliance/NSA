@@ -1,7 +1,7 @@
 .. _enum4linux:
 
-`enum4linux`: SMB & Samba Enumeration
-=====================================
+enum4linux: SMB & Samba Enumeration
+===================================
 
 .. index:: !enum4linux
 
@@ -19,8 +19,8 @@
 
 
 
-What is `enum4linux`?
----------------------
+What is enum4linux?
+-------------------
 The `enum4linux` tool allows you to enumerate information from `Windows` and `Samba` systems. Written in `Perl`, it is basically a wrapper around a number of other utilities, providing a unified, simplified script capable of collecting a significant amount of information.
 
 
@@ -29,8 +29,8 @@ How does it work?
 This utility relies heavily on `null sessions`, which are anonymous connections to inter-process communication services on the target system. Using `null sessions`, as well as a few other techniques, the `enum4linux` utility can extract information including (but not limited to) hardware information, OS information, usernames, password policies, open ports, and shared printers and filesystems.
 
 
-Using `enum4linux`
-------------------
+Using enum4linux
+----------------
 
 .. note::
 

@@ -13,8 +13,6 @@ bind shell
 Capture the Flag (CTF)
   A game in which hackers attempt to penetrate a specially-designed target system or network. CTFs are a good way to legally practice hacking skills and gain recognition in the hacker community.
 
-.. index:: !Capture the Flag
-
 
 enumeration
   The process of collecting useful information about a target, such as open ports, software version numbers, etc.
