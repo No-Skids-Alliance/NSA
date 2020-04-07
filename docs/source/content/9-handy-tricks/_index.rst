@@ -6,4 +6,5 @@ The following sections detail some useful tips and tricks that can be used durin
 .. toctree::
    :caption: Chapter Contents
 
+   file_transfers/_index.rst
    manipulating_tool_output/_index.rst
