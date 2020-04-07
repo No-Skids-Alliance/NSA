@@ -140,7 +140,7 @@ From this information, we know the following:
 * The Operating System is `Red Hat Linux`.
 * `Apache` has at least two modules installed: `mod_ssl` version 2.8.4, and `OpenSSL` version 0.9.6b
 
-This is all useful information, so we'll make a note of it.
+This is all useful information. When enumerating a system, one of the most important pieces of information you can gather about a service is the version number, which can help you learn what vulnerabilities might exist in that software. Despire the lack of vulnerable websites on the target's HTTP server, it's still possible that `Apache`, or one of its modules, might be exploitable.
 
 Our next course of action could be to use a tool like `dirbuster` to attempt a brute-force enumeration attack on the target in order to see if there are any secret pages or directories on the server, but this is time-consuming, and is very noisy. In a real penetration test, using such a tool is likely to raise some alarms and get you caught. So, for now, we'll skip this step, returning to it later if we're unable to find another vector for attack.
 
@@ -198,7 +198,7 @@ Browsing through the output of the command, we learn that the host calls itself 
 .. index::
    single: Metasploit
 
-We've gathered a good amount of information with `enum4linux`, but we still don't know what version of `Samba` is running on the target. When enumerating a system, one of the most important pieces of information you can gather about a service is the version number, which can help you learn what vulnerabilities might exist in that software. Fortunately for us, there's a `Metasploit` module that serves this very purpose, enabling us to identify the version of `Samba` running on our target.
+We've gathered a good amount of information with `enum4linux`, but we still don't know what version of `Samba` is running on the target. Fortunately for us, there's a `Metasploit` module that can help identify more information about SMB and `Samba`, enabling us to identify the version of `Samba` running on our target.
 
 To use this module, let's first launch `Metasploit`. Open the `Kali` menu, then type ``metasploit``, then click the `Metasploit framework` launcher. This will initialize and launch the `Metasploit` console. Once you see the ``msf5`` command prompt, type the following:
 
