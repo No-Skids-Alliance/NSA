@@ -21,14 +21,16 @@ This version of `No Skids Allowed!` was published March 16th, 2020.
 
 .. toctree::
    :caption: Table of Contents
-   :maxdepth: 3
+   :maxdepth: 4
 
    content/0-introduction/_index.rst
    content/1-fundamentals/_index.rst
    content/2-first-steps/_index.rst
    content/3-enumeration/_index.rst
+   content/4-vulnerability-assessment/_index.rst
    content/5-exploitation/_index.rst
    content/6-post-exploitation/_index.rst
+   content/9-handy-tricks/_index.rst
    content/10-walk-throughs/_index.rst
    content/Q-Quick-Reference/_index.rst
    content/glossary.rst

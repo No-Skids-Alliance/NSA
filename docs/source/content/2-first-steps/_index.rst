@@ -3,8 +3,6 @@
 First Steps
 ===========
 
-.. index:: !Legacy (HackTheBox)
-
 In this section, we'll get started with a hands-on walk-through of a fairly easy `HackTheBox`_ target: `Legacy`.
 
 .. note::

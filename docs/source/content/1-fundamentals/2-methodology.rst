@@ -18,7 +18,7 @@ Let's take a closer look at the PTES. Here's a summary breakdown:
 
 1. Pre-Engagement Interactions
     * All the "business stuff" that must be done prior to the engagement.
-    * Determine the :index:`scope` of the engagement.
+    * Determine the scope of the engagement.
     * Declare the rules of engagement.
     * Discuss time constraints.
     * Negotiate hourly fee.
@@ -39,7 +39,7 @@ Let's take a closer look at the PTES. Here's a summary breakdown:
     * Discover additional information, routes to compromise, etc.
     * Exfiltrate valuable data.
     * Maintain and expand access.
-7. :index:`Reporting <report>`
+7. Reporting
     * Convey the results of the test to the client.
     * High-level summary as well as low-level, in-depth analysis and walk-through.
 
@@ -60,7 +60,7 @@ In truth, each of the established penetration testing methodologies essentially 
     * Yes? Proceed to 8.
 8. Communicate the results.
 
-A penetration test is, essentially, the Scientific Method applied to security. In the pre-engagement interactions, you establish the experiment's question. Essentially, "How is my client vulnerable to attack?" The :index:`scope` narrows the focus of the question, defining the constraints of the experiment. Once the scope is defined, you move on to the research portion, gathering intelligence about the target. Threat modeling enables you to construct a hypothesis about potential routes for exploitation. To confirm or reject hypotheses, pentesters conduct simulated attacks (experiments, essentially).
+A penetration test is, essentially, the Scientific Method applied to security. In the pre-engagement interactions, you establish the experiment's question. Essentially, "How is my client vulnerable to attack?" The scope narrows the focus of the question, defining the constraints of the experiment. Once the scope is defined, you move on to the research portion, gathering intelligence about the target. Threat modeling enables you to construct a hypothesis about potential routes for exploitation. To confirm or reject hypotheses, pentesters conduct simulated attacks (experiments, essentially).
 
 These simulated attacks each follow their own Scientific Method, from question ("Is this version of Sendmail vulnerable?") to hypothesis ("This CVE should provide remote code execution.") to experimentation, analysis, and conclusion ("This version of Sendmail is not vulnerable to this CVE."), after which the results of the experiment are recorded.
 

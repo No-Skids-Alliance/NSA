@@ -1,6 +1,3 @@
-.. index::
-   single: Capture the Flag
-
 CTF Platforms
 =============
 * `HackTheBox`_: Fully-managed CTF network, accessed via VPN. Free tier available.

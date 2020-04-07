@@ -3,14 +3,15 @@
 Glossary
 ========
 
+Address Resolution Protocol (ARP)
+  A network protocol used to determine the hardware (MAC) address of a device associated with a specified IP address. It is used when a device wants to communicate with another device on the local network. The sending device uses ARP to translate an IP address into a MAC address, enabling it to communicate directly with the device. ARP requests can be seen by all devices on a network.
+
 bind shell
   A piece of software that provides a remote attacker with command-line access to a target system by opening a port on the target system to which the attacker's system can connect. Similar to a reverse shell.
 
 
 Capture the Flag (CTF)
   A game in which hackers attempt to penetrate a specially-designed target system or network. CTFs are a good way to legally practice hacking skills and gain recognition in the hacker community.
-
-.. index:: !Capture the Flag
 
 
 enumeration
@@ -30,8 +31,6 @@ Google Dork / * Dork
 
 Google-Fu
   The ability to effectively employ search engines to obtain useful information.
-
-.. index:: !Google-Fu
 
 
 hack
@@ -56,8 +55,6 @@ hacking
 
 hacktivism
   Using hacking techniques and skills to gain unauthorized access to computer files, systems, and/or networks, in order to further social or political ends.
-
-.. index:: !hacktivism
 
 
 malware
@@ -89,13 +86,9 @@ port
 Remote-Access Trojan (RAT)
   A malware program used by intruders to remotely control target systems.
 
-.. index:: !Remote-Access Trojan (RAT)
-
 
 Remote Code Execution (RCE) Vulnerability
   A flaw in a piece of software which allows attackers to run arbitrary commands or code on a target machine across a network connection.
-
-.. index:: !Remote Code Execution (RCE)
 
 
 report
@@ -108,8 +101,6 @@ reverse shell
 
 scope
   The systems, locations, techniques and tools which can be used in a specific `penetration test`.
-
-.. index:: !scope
 
 
 script kiddie / skid
