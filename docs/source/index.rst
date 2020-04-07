@@ -13,8 +13,9 @@ No Skids Allowed! A Pentester's Primer
 
 **CHANGE LOG**
 
-This version of `No Skids Allowed!` was published March 16th, 2020.
+This version of `No Skids Allowed!` was published April 7th, 2020.
 
+* **2020.04.07**: Finished walk-through of `Kioptrix Level 1` from `VulnHub`.
 * **2020.03.16**: Finished "First Steps" chapter, detailing walk-through of `Legacy` from `HackTheBox`.
 
 ----
