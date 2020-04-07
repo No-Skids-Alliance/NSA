@@ -16,3 +16,4 @@ With this complete, go ahead and boot up `Kioptrix Level 1` and your `Kali` VM, 
 
    0-enumeration.rst
    1-vuln-ident.rst
+   2-exploitation.rst

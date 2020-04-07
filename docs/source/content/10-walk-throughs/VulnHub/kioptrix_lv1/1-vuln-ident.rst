@@ -78,9 +78,6 @@ Our next target for investigation is `OpenSSL` version 0.9.6b. The full version 
 
 Moving on, we'll now look at `Samba` version 2.2.1a. The full version number doesn't provide us with any results, but removing the ``.1a`` gives us a bounty:
 
-.. index::
-   single: Metasploit
-
 .. code-block:: none
 
     kali@kali:~$ searchsploit --id samba 2.2
@@ -97,13 +94,13 @@ Moving on, we'll now look at `Samba` version 2.2.1a. The full version number doe
     -------------------------------------------------------------------------- ---------
     Shellcodes: No Result
 
-There appear to be a number of Remote Buffer Overflow and RCE exploits available for this version of `Samba`, including some with `Metasploit` modules. These all seem to have the phrase ``nttrans`` in common, so we'll take a note of that and move on.
+There appear to be a number of Remote Buffer Overflow and RCE exploits available for this version of `Samba`, including some with `Metasploit` modules. However, the last result, regarding the RCE exploit for `Linux` and `BSD`, looks appetizing, and doesn't depend upon `Metasploit`. Let's give that a shot, and if it doesn't work, we can come back to the list and try something else.
 
 Our final target is `OpenSSH` version 2.9p2. Searching for the full version number provides no results. Removing the ``p2`` from the end doesn't help, so finally we search for version ``2.``. This time, there are a number of results, but there's only one RCE, and it's for `FreeBSD`. It seems we've hit a dead-end.
 
 Having finished our `SearchSploit` investigation, we've discovered two potential targets for exploitation:
 
 * `Apache`'s `mod_ssl`, via the `OpenFuck` exploits, and
-* `Samba`, via the `nttrans` Remote Buffer Overflow in `Metasploit`.
+* `Samba`, via the `Linux/BSD` RCE exploit.
 
 In the next section, we'll put these exploits to the test.

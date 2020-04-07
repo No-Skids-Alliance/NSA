@@ -8,7 +8,7 @@ Enumeration
 |             |                              |
 |             |:ref:`enum4linux <enum4linux>`|
 |             |                              |
-|             |:ref:`Metasploit <Metasploit>`|
+|             |:ref:`Metasploit`             |
 |             |                              |
 |             |:ref:`nmap <nmap>`            |
 +-------------+------------------------------+
