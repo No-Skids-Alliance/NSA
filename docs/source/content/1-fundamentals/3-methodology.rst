@@ -1,8 +1,10 @@
 Pentest Methodology
 ===================
-As in other areas of engineering and science, pentesting is most effective when based on the foundation of a solid methodology. A variety of penetration testing methodologies have been published, each outlining a set of phases and objectives. These methodologies help ensure a thorough, comprehensive test, and help hackers stay organized and maximize their effectiveness.
+A good methodology is the most valuable tool in a hacker's toolkit.
 
-One of the most basic and widely-recognized standards is the `Penetration Testing Execution Standard`_ (PTES). Other standards, such as the `Open Source Security Testing Methodology Manual`_ (OSSTMM) or the `Penetration Testing Framework`_ (PTF), are widely-used as well.
+As in other areas of engineering and science, pentesting is most effective when based on the foundation of a solid methodology. A variety of penetration testing methodologies have been published, each outlining a set of phases and objectives. These methodologies help ensure a thorough, comprehensive test, and help hackers stay organized and maximize their effectiveness. For this reason, a solid methodology is the most valuable tool a hacker can possess.
+
+One of the most basic and widely-recognized standard methodologies is the `Penetration Testing Execution Standard`_ (PTES). Other standards, such as the `Open Source Security Testing Methodology Manual`_ (OSSTMM) or the `Penetration Testing Framework`_ (PTF), are widely-used as well.
 
 .. _Penetration Testing Execution Standard: http://www.pentest-standard.org/index.php/Main_Page
 .. _Open Source Security Testing Methodology Manual: https://www.isecom.org/research.html
