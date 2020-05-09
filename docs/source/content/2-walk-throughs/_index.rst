@@ -8,7 +8,7 @@ One way that hackers show off their skills is by posting "walk-throughs" or "wri
 
 The following sections feature complete guides to various vulnerable systems featured on sites like `HackTheBox`_ and `VulnHub`_. They are included to provide context and depth to the various tools and techniques discussed throughout the rest of the guide.
 
-The guides are divided by platform and arranged in a very loose and subjective order of ascending difficulty. Every section is cross-referenced with additional information from chapters 3 through 9, which include more in-depth information about each tool and technique utilized in each walk-through.
+The guides are divided by platform and arranged in a very loose and subjective order of ascending difficulty. Every section is cross-referenced with additional information from chapters 4 and onward, which include more in-depth information about each tool and technique utilized in each walk-through.
 
 .. _HackTheBox: https://hackthebox.eu/
 .. _VulnHub: https://www.vulnhub.com/
