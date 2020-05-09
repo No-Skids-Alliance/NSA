@@ -3,9 +3,11 @@
 Vulnerability Scanning
 ======================
 
-+-------------+------------------+
-|**Reference**|:ref:`nmap <nmap>`|
-+-------------+------------------+
++-------------+-------------------+
+|**Reference**|:ref:`nmap <nmap>` |
+|             |                   |
+|             |:ref:`searchsploit`|
++-------------+-------------------+
 
 
 Typing ``windows xp smb`` into the search bar, Google provides us with some troubling auto-completion suggestions (see Figure 2).
@@ -35,7 +37,64 @@ The top three results mention **MS08-067** and **MS17-010**. These strange codes
 
     The definition of a **Remote Code Execution** vulnerability can be found in the :ref:`Glossary`.
 
-Now that we've found a couple potential vulnerabilities, let's see if the target is vulnerable. One of `nmap`'s coolest features is its scripting engine, which enables it to perform more complex tasks such as deeper enumeration of a target's ports, vulnerability scanning, and even active exploitation. On `Kali Linux`, the `nmap` scripts are stored in ``/usr/share/nmap/scripts/``. Let's see if any scripts exist for either of the vulnerabilities we discovered:
+.. index::
+   single: Metasploit
+   single: SearchSploit
+
+Now that we've identified two good-looking vulnerabilities, we should see if we can find any exploits to go with them. This is where `SearchSploit` shines. Of all the components in the `Metasploit Framework`, `SearchSploit` is probably used the most, as it provides a massive repository of exploits for a wide variety of software, with built-in search capability. The data all comes from `Exploit Database <https://www.exploit-db.com/>`_, and is generally considered trustworthy. (It is important to remember, however, that all of their exploits are submitted by the public, and should be reviewed before use.)
+
+Let's use `SearchSploit` to search for exploits for the two discovered vulnerabilities. I'll use the ``--id`` command-line argument to show the Exploit Database ID instead of a URL, for the sake of simplicity.
+
+First, let's look at the results for **MS08-067**:
+
+.. code-block:: none
+
+    kali@kali:~$ searchsploit --id ms08-067
+    ------------------------------------------------------------------------------------------- ---------
+     Exploit Title                                                                             |  EDB-ID
+    ------------------------------------------------------------------------------------------- ---------
+    Microsoft Windows - 'NetAPI32.dll' Code Execution (Python) (MS08-067)                      | 40279
+    Microsoft Windows Server - Code Execution (MS08-067)                                       | 7104
+    Microsoft Windows Server - Code Execution (PoC) (MS08-067)                                 | 6824
+    Microsoft Windows Server - Service Relative Path Stack Corruption (MS08-067) (Metasploit)  | 16362
+    Microsoft Windows Server - Universal Code Execution (MS08-067)                             | 6841
+    Microsoft Windows Server 2000/2003 - Code Execution (MS08-067)                             | 7132
+    ------------------------------------------------------------------------------------------- ---------
+    Shellcodes: No Result
+
+Wow, there's a lot of options to choose from! Perhaps we should narrow it down a bit. Let's see if there are any exploits designed to work with the `Metasploit Framework` (which we'll cover in the next section). To do this, simply add the word "Metasploit" to the search query:
+
+.. code-block:: none
+
+    kali@kali:~$ searchsploit --id ms08-067 metasploit
+    ------------------------------------------------------------------------------------------- ---------
+     Exploit Title                                                                             |  EDB-ID
+    ------------------------------------------------------------------------------------------- ---------
+    Microsoft Windows Server - Service Relative Path Stack Corruption (MS08-067) (Metasploit)  | 16362
+    ------------------------------------------------------------------------------------------- ---------
+    Shellcodes: No Result
+
+Wonderful! Normally, it's a good thing to have multiple results, but we're trying to keep things simple for this walk-through, so narrowing it down to a single `Metasploit` module is quite handy.
+
+Now let's see what's available for **MS17-010**, focusing on results that include `Metasploit` modules:
+
+.. code-block:: none
+
+    kali@kali:~$ searchsploit --id ms17-010 metasploit
+    ------------------------------------------------------------------------------------------- ---------
+     Exploit Title                                                                             |  EDB-ID
+    ------------------------------------------------------------------------------------------- ---------
+    Microsoft Windows - 'EternalRomance'/'EternalSynergy'/'EternalChampion' SMB Remote Code Ex | 43970
+    Microsoft Windows - SMB Remote Code Execution Scanner (MS17-010) (Metasploit)              | 41891
+    ------------------------------------------------------------------------------------------- ---------
+    Shellcodes: No Result
+
+Nice. Looking closer, you'll notice that the second result is a "scanner." A scanner, in this context, is able to check target systems and verify whether they have a particular vulnerability. While handy, we won't be needing this, as we'll be confirming the vulnerability with `nmap` in the next section. (Spoiler alert!) For this reason, we'll want to focus on the first result, with the EDB ID 43970.
+
+.. index::
+   single: nmap
+
+Now that we've found a couple promising exploits, let's see if the target is vulnerable. One of `nmap`'s coolest features is its scripting engine, which enables it to perform more complex tasks such as deeper enumeration of a target's ports, vulnerability scanning, and even active exploitation. On `Kali Linux`, the `nmap` scripts are stored in ``/usr/share/nmap/scripts/``. Let's see if any scripts exist for either of the vulnerabilities we discovered:
 
 .. code-block:: none
 
