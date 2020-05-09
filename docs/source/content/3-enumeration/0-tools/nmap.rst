@@ -14,7 +14,7 @@ nmap: the Network Mapper
 +------------+--------------------------------------------------------+
 |                     **Reference  Walk-Throughs**                    |
 +============+========================================================+
-|`HackTheBox`|:ref:`HTB Legacy <Legacy Enumeration>`                  |
+|`HackTheBox`|:ref:`Legacy <Legacy Enumeration>`                      |
 +------------+--------------------------------------------------------+
 |`VulnHub`   |:ref:`Kioptrix Level 1 <Kioptrix Level 1 Port Scanning>`|
 +------------+--------------------------------------------------------+

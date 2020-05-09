@@ -10,6 +10,6 @@ The following sections cover the basic knowledge and skills you'll need in order
 
    0-ethics.rst
    1-knowledge.rst
-   2-methodology.rst
-   3-report.rst
-   4-toolkit.rst
+   2-toolkit.rst
+   3-methodology.rst
+   4-report.rst
