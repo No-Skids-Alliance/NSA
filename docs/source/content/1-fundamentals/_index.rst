@@ -14,3 +14,4 @@ The following sections cover the basic knowledge and skills you'll need in order
    4-toolkit.rst
    5-methodology.rst
    6-report.rst
+   7-etiquette.rst
