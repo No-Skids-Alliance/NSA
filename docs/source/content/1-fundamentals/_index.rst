@@ -8,8 +8,10 @@ The following sections cover the basic knowledge and skills you'll need in order
 .. toctree::
    :caption: Chapter Contents
 
-   0-ethics.rst
-   1-knowledge.rst
-   2-toolkit.rst
-   3-methodology.rst
-   4-report.rst
+   1-introduction.rst
+   2-ethics.rst
+   3-knowledge.rst
+   4-toolkit.rst
+   5-methodology.rst
+   6-report.rst
+   7-etiquette.rst

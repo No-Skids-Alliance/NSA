@@ -22,9 +22,9 @@ No Skids Allowed! A Pentester's Primer
 
 **CHANGE LOG**
 
-This version of `No Skids Allowed!` was published May 9th, 2020.
+This version of `No Skids Allowed!` was published May 10th, 2020.
 
-* **2020.05.09**: Reorganized document in preparation of expansion.
+* **2020.05.10**: Reorganized document in preparation of expansion. Added etiquette.
 * **2020.04.10**: Created website (with Tor support) and Keybase team.
 * **2020.04.07**: Finished walk-through of `Kioptrix Level 1` from `VulnHub`.
 * **2020.03.16**: Finished "First Steps" chapter, detailing walk-through of `Legacy` from `HackTheBox`.
@@ -35,13 +35,8 @@ This version of `No Skids Allowed!` was published May 9th, 2020.
    :caption: Table of Contents
    :maxdepth: 4
 
-   content/0-introduction/_index.rst
    content/1-fundamentals/_index.rst
-   content/2-walk-throughs/_index.rst
-   content/3-enumeration/_index.rst
-   content/4-vulnerability-assessment/_index.rst
-   content/5-exploitation/_index.rst
-   content/6-post-exploitation/_index.rst
-   content/9-handy-tricks/_index.rst
+   content/2-tools-and-techniques/_index.rst
+   content/3-walk-throughs/_index.rst
    content/Q-Quick-Reference/_index.rst
    content/glossary.rst
