@@ -17,6 +17,7 @@ No Skids Allowed! A Pentester's Primer
 * `Read the Guide on Tor! <http://vx6jnncurzavyayerndkwk7ufwlnyr66rn4woko4xfvze3z36ztosbad.onion/>`_
 * `Get the Latest PDF! <https://nsa.guide/NoSkidsAllowed.pdf>`_
 * `Join the Team on Keybase! <https://keybase.io/team/no_skids.public>`_
+* `Help Build the Guide! <https://github.com/No-Skids-Alliance/NSA>`_
 
 ----
 
