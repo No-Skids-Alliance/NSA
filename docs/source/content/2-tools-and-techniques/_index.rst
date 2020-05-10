@@ -1,7 +1,9 @@
+.. _tools and techniques:
+
 Tools and Techniques
 ====================
 
-The chapters in this section contain a bounty of information about various tools and techniques used by hackers. These chapters are cross-referenced with the walk-throughs in section 3, allowing you to see a practical use for every tool.
+The sections in this chapter contain a bounty of information about various tools and techniques used by hackers. These sections are cross-referenced with the walk-throughs in :ref:`Chapter 3 <walkthroughs>`, allowing you to see a practical use for every tool.
 
 .. toctree::
    :caption: Table of Contents
