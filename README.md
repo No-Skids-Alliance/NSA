@@ -4,6 +4,8 @@
 
 This is the source repository for the **No Skids Allowed!** website. Any corrections, suggestions, or additional content will be submitted here.
 
+If you're looking for the website it's available at https://nsa.guide/.
+
 All content is provided under the [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/). For more information, see `LICENSE`.
 
 ***
