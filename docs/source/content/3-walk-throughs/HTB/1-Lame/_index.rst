@@ -3,17 +3,18 @@
 Lame
 ====
 
-+-------+------+-----------+
-|**Difficulty**|Easy       |
-+-------+------+-----------+
-|**Reference** |:ref:`nmap`|
-+-------+------+-----------+
++-------+------+-------------------------------+
+|**Difficulty**|Easy                           |
++-------+------+-------------------------------+
+|**Reference** |:ref:`enum4linux`              |
+|              |                               |
+|              |:ref:`nmap`                    |
+|              |                               |
+|              |:ref:`smbclient`               |
++-------+------+-------------------------------+
 
 
 .. toctree::
    :caption: Chapter Contents
 
    0-enumeration.rst
-   1-vuln-scanning.rst
-   2-exploitation.rst
-   3-capturing-flags.rst

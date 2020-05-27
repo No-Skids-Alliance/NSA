@@ -239,12 +239,12 @@ The ``tmp`` share looks interesting, as does ``opt``. In the next section, we ca
 
 .. code-block:: none
 
-//10.10.10.3/tmp	Mapping: OK, Listing: OK
-//10.10.10.3/opt	Mapping: DENIED, Listing: N/A
+    //10.10.10.3/tmp	Mapping: OK, Listing: OK
+    //10.10.10.3/opt	Mapping: DENIED, Listing: N/A
 
 .. index:: smbclient
 
-Looks like we won't be able to access the ``opt`` share, but the ``tmp`` share is available. We can use `smbclient` to explore its contents:
+Looks like we won't be able to access the ``opt`` share, but the ``tmp`` share is available. We can use `smbclient` to explore its contents, authenticating via a `null session`:
 
 .. code-block:: none
 
@@ -291,4 +291,35 @@ Success! We were able to upload ``lame.nmap`` to the server. This service can be
     smb: \> get lame.nmap
     getting file \lame.nmap of size 2496 as lame.nmap (9.7 KiloBytes/sec) (average 9.8 KiloBytes/sec)
 
-Nice! It looks like we can both upload and download files on this service. This could prove useful in the future.
+Nice! It looks like we can both upload and download files on this service. This could prove useful in the future. I don't want to leave that file there, however. It's always a good idea to :ref:`cover your tracks`, so I'll use the ``rm`` command to remove the file:
+
+.. code-block:: none
+
+    smb: \> rm lame.nmap
+    smb: \> ls
+      .                                   D        0  Wed May 27 17:07:59 2020
+      ..                                 DR        0  Sun May 20 14:36:12 2012
+      5143.jsvc_up                        R        0  Wed May 27 14:35:05 2020
+      .ICE-unix                          DH        0  Wed May 27 14:33:56 2020
+      .X11-unix                          DH        0  Wed May 27 14:34:21 2020
+      .X0-lock                           HR       11  Wed May 27 14:34:21 2020
+
+                    7282168 blocks of size 1024. 5678792 blocks available
+
+Nice.
+
+
+
+Enumeration Wrap-Up
+-------------------
+We now have a pretty good view of what's happening on this system. We've identified the following software running on the target:
+
+* `Debian 9`
+* `Linux Kernel 4.9`
+* `vsftpd 2.3.4`
+* `OpenSSH 4.7p1`
+* `Samba 3.0.20`
+
+We've discovered that an account called ``user`` exists on the host, and that there's an open `Samba` share called ``tmp``, where we can upload and retrieve files. We also know that this service calls itself ``lame.hackthebox.gr``, which could be important to know as well.
+
+With this information in-hand, let's see what kinds of vulnerabilities we can find.

@@ -99,6 +99,7 @@ This is an interactive command prompt, similar to that of the basic FTP command-
 
 * ``get``: Retrieve a file from the system.
 * ``put``: Upload a file to the system.
+* ``rm``: Delete a file on the system.
 * ``ls``: List the contents of the current directory.
 * ``help``: Learn more commands, and how they work.
 * ``exit``: Disconnect and quit `smbclient`.
