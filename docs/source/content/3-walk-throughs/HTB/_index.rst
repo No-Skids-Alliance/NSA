@@ -16,3 +16,4 @@ HackTheBox
    :caption: HackTheBox Targets
 
    0-legacy/_index.rst
+   1-Lame/_index.rst

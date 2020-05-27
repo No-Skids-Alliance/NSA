@@ -149,6 +149,9 @@ Our next course of action could be to use a tool like `dirbuster` to attempt a b
 
 Enumerating Samba
 -----------------
+
+.. index:: enum4linux
+
 With `Apache` out of the way, our next target for enumeration is `Samba`, on port 139. `Samba` is an open-source implementation of the Server Message Block (SMB) protocol, and has historically been a prime target for exploitation. Let's see what we can learn about this service.
 
 .. note::
