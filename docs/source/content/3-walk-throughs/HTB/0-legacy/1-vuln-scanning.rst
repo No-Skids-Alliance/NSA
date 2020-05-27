@@ -1,7 +1,7 @@
 .. _Legacy Vulnerability Scanning:
 
-Vulnerability Scanning
-======================
+Vulnerability Assessment
+========================
 
 +-------------+-------------------+
 |**Reference**|:ref:`nmap <nmap>` |
@@ -10,14 +10,24 @@ Vulnerability Scanning
 +-------------+-------------------+
 
 
-Typing ``windows xp smb`` into the search bar, Google provides us with some troubling auto-completion suggestions (see Figure 2).
+
+Finding Vulnerabilities with Google
+-----------------------------------
+
+We've now identified two open ports on the system, as well as the target's OS. That's not a lot of attack surface, but perhaps we can learn something more about the target that will give us a clue as to where to go from here. By searching online, we discover that ports 139 and 445 are part of the `Server Message Block` (SMB) protocol, used "for sharing files, printers, serial ports, and communications abstractions such as named pipes and mail slots between computers." [#]_
+
+.. [#] https://www.samba.org/cifs/docs/what-is-smb.html
+
+The SMB service has seen more than its fair share of vulnerabilities and exploits over the years. Knowing that our target is running `Windows XP` and SMB, let's see what `Google` can tell us about this service.
+
+Typing ``windows xp smb`` into the search bar, `Google` provides us with some troubling auto-completion suggestions (see Figure 2).
 
 .. figure:: images/1-xp-smb-google.png
    :width: 400 px
    :align: center
    :alt: Screenshot of Google auto-complete results, with 'exploit' in the top three.
 
-   Screenshot of Google auto-complete results, with 'exploit' in the top three.
+   Screenshot of `Google` auto-complete results, with 'exploit' in the top three.
 
 Let's go ahead and search for ``windows xp smb exploit`` and see what comes up (see Figure 3).
 
@@ -26,9 +36,9 @@ Let's go ahead and search for ``windows xp smb exploit`` and see what comes up (
    :align: center
    :alt: The top three Google results, containing the strings 'ms08-067' and 'ms17-010'.
 
-   The top three Google results, containing the strings **ms08-067** and **ms17-010**.
+   The top three `Google` results, containing the strings **ms08-067** and **ms17-010**.
 
-The top three results mention **MS08-067** and **MS17-010**. These strange codes refer to Microsoft's security patches, which are named by the year and patch number. **MS08-067** was the 67th patch released in 2008, and **MS17-010** was the 10th patch released in 2017. Let's take a closer look at these two patches. Performing a Google search for each, you'll find a Microsoft page describing the vulnerabilities in more detail. Looking at the security bulletin for **MS08-067** [#]_, we see that it involves a **Remote Code Execution (RCE)** vulnerability, and is rated "Critical." Likewise, the bulletin for **MS17-010** [#]_ also involves a Critical RCE vulnerability.
+The top three results mention **MS08-067** and **MS17-010**. These strange codes refer to Microsoft's security patches, which are named by the year and patch number. **MS08-067** was the 67th patch released in 2008, and **MS17-010** was the 10th patch released in 2017. Let's take a closer look at these two patches. Performing a `Google` search for each, you'll find a Microsoft page describing the vulnerabilities in more detail. Looking at the security bulletin for **MS08-067** [#]_, we see that it involves a **Remote Code Execution (RCE)** vulnerability, and is rated "Critical." Likewise, the bulletin for **MS17-010** [#]_ also involves a Critical RCE vulnerability.
 
 .. [#] https://docs.microsoft.com/en-us/security-updates/securitybulletins/2008/ms08-067
 .. [#] https://docs.microsoft.com/en-us/security-updates/securitybulletins/2017/ms17-010
@@ -36,6 +46,13 @@ The top three results mention **MS08-067** and **MS17-010**. These strange codes
 .. note::
 
     The definition of a **Remote Code Execution** vulnerability can be found in the :ref:`Glossary`.
+
+
+
+.. _Legacy SearchSploit:
+
+Finding Exploits with SearchSploit
+----------------------------------
 
 .. index::
    single: Metasploit
@@ -90,6 +107,13 @@ Now let's see what's available for **MS17-010**, focusing on results that includ
     Shellcodes: No Result
 
 Nice. Looking closer, you'll notice that the second result is a "scanner." A scanner, in this context, is able to check target systems and verify whether they have a particular vulnerability. While handy, we won't be needing this, as we'll be confirming the vulnerability with `nmap` in the next section. (Spoiler alert!) For this reason, we'll want to focus on the first result, with the EDB ID 43970.
+
+
+
+.. _Legacy NSE:
+
+Confirming Vulnerabilities with Nmap Scripting Engine
+-----------------------------------------------------
 
 .. index::
    single: nmap

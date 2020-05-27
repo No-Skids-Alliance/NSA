@@ -10,7 +10,7 @@ HackTheBox
 
     To gain access to these retired machines, you'll need a VIP account on HackTheBox. VIP accounts are not free, but they are not prohibitively expensive, and offer many advantages over the free account.
 
-    Creating an account on HackTheBox is a little more complicated than on most websites, as they require you to hack their sign-up process. We urge you to attempt to solve this puzzle on your own, but if you struggle with this step, there are numerous guides on the internet for how to hack the sign-up process. Remember: Google is your greatest asset!
+    Creating an account on HackTheBox is a little more complicated than on most websites, as they require you to hack their sign-up process. We urge you to attempt to solve this puzzle on your own, but if you struggle with this step, there are numerous guides on the internet for how to hack the sign-up process. Remember: `Google` is your greatest asset!
 
 .. toctree::
    :caption: HackTheBox Targets
