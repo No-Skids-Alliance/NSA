@@ -10,6 +10,8 @@ Lame
 |              |                               |
 |              |:ref:`nmap`                    |
 |              |                               |
+|              |:ref:`searchsploit`            |
+|              |                               |
 |              |:ref:`smbclient`               |
 +-------+------+-------------------------------+
 
@@ -19,3 +21,4 @@ Lame
 
    0-enumeration.rst
    1-vuln-assessment.rst
+   2-exploitation.rst
