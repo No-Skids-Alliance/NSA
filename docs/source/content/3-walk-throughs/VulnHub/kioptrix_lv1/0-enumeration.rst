@@ -106,7 +106,7 @@ Between `Samba` and `Apache`, it's hard to decide which would be the better targ
 
 Our first step is, quite simply, to connect to the service using a normal web browser, just to see what's there. If this were a real penetration test, this would be the least-conspicuous way to approach the target, as it is unlikely to set off any alarms in their defenses.
 
-First, we'll check the HTTP site on port 80, by visiting ``http://10.1.1.102/`` in `Firefox`. Here we discover a default `Apache` test page, demonstrating that the `Apache` service has been successfully installed on the system (see Figure 1).
+First, we'll check the HTTP site on port 80, by visiting ``http://10.1.1.102/`` in `Firefox`. Here we discover a default `Apache` test page, demonstrating that the `Apache` service has been successfully installed on the system.
 
 .. figure:: images/0-Apache.png
    :width: 400 px
@@ -115,7 +115,7 @@ First, we'll check the HTTP site on port 80, by visiting ``http://10.1.1.102/`` 
 
    The default `Apache` test page.
 
-Next, we'll check out the site on port 443, by visiting ``https://10.1.1.102/`` in `Firefox`. We are presented with a warning (see Figure 2).
+Next, we'll check out the site on port 443, by visiting ``https://10.1.1.102/`` in `Firefox`. We are presented with a warning.
 
 .. figure:: images/1-Warning.png
    :width: 400px
@@ -242,7 +242,7 @@ Having completed our enumeration of `Apache` and `Samba`, we now know that the f
 
 There's only one version number we're missing: that of the operating system. How can we determine what OS is currently installed, with the information we currently possess? That's right: it's time to put our Google-fu to work.
 
-By searching for a specific package number, combined with the name of the operating system, we can often deduce the OS version. This is because specific OS releases are shipped with specific versions of bundled packages. `Apache` is a good candidate, as nearly all major `Linux` distributions ship with `Apache` as the default bundled web server. Therefore, let's search for ``red hat apache 1.3.20`` and see what we can find (see Figure 3).
+By searching for a specific package number, combined with the name of the operating system, we can often deduce the OS version. This is because specific OS releases are shipped with specific versions of bundled packages. `Apache` is a good candidate, as nearly all major `Linux` distributions ship with `Apache` as the default bundled web server. Therefore, let's search for ``red hat apache 1.3.20`` and see what we can find.
 
 .. figure:: images/2-Google-Fu.png
    :width: 400 px
@@ -251,7 +251,7 @@ By searching for a specific package number, combined with the name of the operat
 
    Search results for "red hat apache 1.3.20".
 
-The first link leads us to `www.rpm-find.net <http://www.rpm-find.net/linux/RPM/archive.download.redhat.com/pub/redhat/linux/7.2/en/os/i386/RedHat/RPMS/apache-1.3.20-16.i386.html>`_, where we discover that this version of `Apache` was shipped with `Red Hat Linux` version 7.2 (see Figure 4).
+The first link leads us to `www.rpm-find.net <http://www.rpm-find.net/linux/RPM/archive.download.redhat.com/pub/redhat/linux/7.2/en/os/i386/RedHat/RPMS/apache-1.3.20-16.i386.html>`_, where we discover that this version of `Apache` was shipped with `Red Hat Linux` version 7.2.
 
 .. figure:: images/3-Red-Hat-Version.png
    :width: 400 px

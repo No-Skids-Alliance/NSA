@@ -20,7 +20,7 @@ We've now identified two open ports on the system, as well as the target's OS. T
 
 The SMB service has seen more than its fair share of vulnerabilities and exploits over the years. Knowing that our target is running `Windows XP` and SMB, let's see what `Google` can tell us about this service.
 
-Typing ``windows xp smb`` into the search bar, `Google` provides us with some troubling auto-completion suggestions (see Figure 2).
+Typing ``windows xp smb`` into the search bar, `Google` provides us with some troubling auto-completion suggestions.
 
 .. figure:: images/1-xp-smb-google.png
    :width: 400 px
@@ -29,7 +29,7 @@ Typing ``windows xp smb`` into the search bar, `Google` provides us with some tr
 
    Screenshot of `Google` auto-complete results, with 'exploit' in the top three.
 
-Let's go ahead and search for ``windows xp smb exploit`` and see what comes up (see Figure 3).
+Let's go ahead and search for ``windows xp smb exploit`` and see what comes up.
 
 .. figure:: images/2-xp-smb-exploit-suggestions.png
    :width: 400 px
