@@ -22,7 +22,7 @@ Netcat: The Network Swiss-Army Knife
 
 
 What is netcat?
--------------
+---------------
 From the `homepage <https://nc110.sourceforge.io/>`_:
 
   `Netcat` is a simple Unix utility which reads and writes data across network connections, using TCP or UDP protocol.
@@ -39,8 +39,8 @@ How does it work?
 `Netcat` can also act as a server, binding to a specific port and listening for incoming connections. It can be scripted or accessed manually, regardless of whether it's used as client or server.
 
 
-Using TOOL
-----------
+Using netcat
+------------
 To use `netcat`, simply type ``nc`` on the command line, along with whatever arguments you wish to pass. Examples:
 
 .. code-block:: none
