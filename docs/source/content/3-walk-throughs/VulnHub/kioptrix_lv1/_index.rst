@@ -19,6 +19,8 @@ Kioptrix Level 1
 |              |:ref:`Python File Transfers`|
 |              |                            |
 |              |:ref:`SearchSploit`         |
+|              |                            |
+|              |:ref:`tee`                  |
 +------+-------+----------------------------+
 
 

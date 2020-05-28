@@ -8,11 +8,11 @@ Enumeration
 |             |                              |
 |             |:ref:`enum4linux <enum4linux>`|
 |             |                              |
-|             |:ref:`Metasploit`             |
+|             |:ref:`Metasploit <metasploit>`|
 |             |                              |
 |             |:ref:`nmap <nmap>`            |
 |             |                              |
-|             |:ref:`tee`                    |
+|             |:ref:`tee <tee>`              |
 +-------------+------------------------------+
 
 Finding the Target's IP
