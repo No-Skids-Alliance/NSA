@@ -4,9 +4,7 @@ Vulnerability Assessment
 ========================
 
 +-------------+-------------------+
-|**Reference**|:ref:`nmap <nmap>` |
-|             |                   |
-|             |:ref:`searchsploit`|
+|**Reference**|:ref:`searchsploit`|
 +-------------+-------------------+
 
 
