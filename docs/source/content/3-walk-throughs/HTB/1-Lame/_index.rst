@@ -18,3 +18,4 @@ Lame
    :caption: Chapter Contents
 
    0-enumeration.rst
+   1-vuln-assessment.rst

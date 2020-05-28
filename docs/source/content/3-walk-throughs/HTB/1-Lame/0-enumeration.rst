@@ -314,11 +314,11 @@ Enumeration Wrap-Up
 -------------------
 We now have a pretty good view of what's happening on this system. We've identified the following software running on the target:
 
-* `Debian 9`
-* `Linux Kernel 4.9`
 * `vsftpd 2.3.4`
 * `OpenSSH 4.7p1`
 * `Samba 3.0.20`
+* `Debian 9`
+* `Linux Kernel 4.9`
 
 We've discovered that an account called ``user`` exists on the host, and that there's an open `Samba` share called ``tmp``, where we can upload and retrieve files. We also know that this service calls itself ``lame.hackthebox.gr``, which could be important to know as well.
 
