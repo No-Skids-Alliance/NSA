@@ -23,7 +23,7 @@ Let's take a look at what `SearchSploit` has to say about the software on our ta
 
 .. code-block:: none
 
-    kali@kali:~$ searchsploit --color --id vsftpd 2.3.4
+    kali@kali:~/HTB/Lame$ searchsploit --color --id vsftpd 2.3.4
     -------------------------------------------------------------------- ---------
      Exploit Title                                                      |  EDB-ID
     -------------------------------------------------------------------- ---------
@@ -41,7 +41,7 @@ Our next scan is for `OpenSSH 4.7p1`:
 
 .. code-block:: none
 
-    kali@kali:~$ searchsploit --color --id openssh 4.7
+    kali@kali:~/HTB/Lame$ searchsploit --color --id openssh 4.7
     -------------------------------------------------------------------- ---------
      Exploit Title                                                      |  EDB-ID
     -------------------------------------------------------------------- ---------
@@ -60,7 +60,7 @@ There are a lot of possibilities here, but nothing that specifically mentions ve
 
 .. code-block:: none
 
-    kali@kali:~$ searchsploit -x 45001
+    kali@kali:~/HTB/Lame$ searchsploit -x 45001
       Exploit: OpenSSH < 6.6 SFTP - Command Execution
           URL: https://www.exploit-db.com/exploits/45001
          Path: /usr/share/exploitdb/exploits/linux/remote/45001.py
@@ -87,7 +87,7 @@ Moving on to `Samba`:
 
 .. code-block:: none
 
-    kali@kali:~$ searchsploit --color --id samba 3.0.20
+    kali@kali:~/HTB/Lame$ searchsploit --color --id samba 3.0.20
     -------------------------------------------------------------------- ---------
      Exploit Title                                                      |  EDB-ID
     -------------------------------------------------------------------- ---------
@@ -124,7 +124,7 @@ Even our `SearchSploit` results are expansive:
 
 .. code-block:: none
 
-    kali@kali:~$ searchsploit --color --id debian 9
+    kali@kali:~/HTB/Lame$ searchsploit --color --id debian 9
     -------------------------------------------------------------------- ---------
      Exploit Title                                                      |  EDB-ID
     -------------------------------------------------------------------- ---------
@@ -169,7 +169,7 @@ Operating Systems are big, complex machines built of thousands of interconnected
 
 .. code-block:: none
 
-    kali@kali:~$ searchsploit --color --id debian 9 privilege escalation
+    kali@kali:~/HTB/Lame$ searchsploit --color --id debian 9 privilege escalation
     -------------------------------------------------------------------- ---------
      Exploit Title                                                      |  EDB-ID
     -------------------------------------------------------------------- ---------

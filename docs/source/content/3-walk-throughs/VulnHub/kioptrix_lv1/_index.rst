@@ -12,6 +12,8 @@ Kioptrix Level 1
 |              |                            |
 |              |:ref:`Metasploit`           |
 |              |                            |
+|              |:ref:`netcat`               |
+|              |                            |
 |              |:ref:`nmap`                 |
 |              |                            |
 |              |:ref:`Python File Transfers`|

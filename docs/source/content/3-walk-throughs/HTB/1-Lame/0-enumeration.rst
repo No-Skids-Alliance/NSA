@@ -9,6 +9,8 @@ Enumeration
 |             |:ref:`nmap <nmap>`             |
 |             |                               |
 |             |:ref:`smbclient`               |
+|             |                               |
+|             |:ref:`tee`                     |
 +-------------+-------------------------------+
 
 
@@ -30,8 +32,7 @@ To start things off, let's ping the target to ensure it's online:
     3 packets transmitted, 3 received, 0% packet loss, time 2006ms
     rtt min/avg/max/mdev = 58.425/59.254/59.772/0.592 ms
 
-.. index::
-   single: nmap
+.. index:: nmap, tee
 
 Excellent. Using `nmap`, we'll scan for open ports and see what services are running. This time, let's use the ``-A`` command-line argument to tell `nmap` to run a standard battery of `Nmap Scripting Engine` scripts against the open ports, to see what else we can learn:
 
@@ -136,6 +137,8 @@ Enumerating Samba
 
     client min protocol = CORE
     client max protocol = SMB3
+
+.. index:: tee
 
 With that complete, we'll begin enumerating `Samba` by using `enum4linux`. This utility has seen better days; quite often the script will spit out tons of errors as it runs, but it still returns some useful information. In order to strip out the errors and clean up the output, I'll use `tee` to pipe the output from the tool into a file called ``lame.enum4linux``:
 
