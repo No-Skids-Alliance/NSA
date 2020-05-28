@@ -19,6 +19,9 @@ Netcat: The Network Swiss-Army Knife
 |`VulnHub`   |:ref:`Kioptrix Level 1 <Kioptrix Lv1 Samba>`       |
 +------------+---------------------------------------------------+
 
++----------+------------------------------------+
+| See Also |:ref:`Netcat Shells <Netcat Shells>`|
++----------+------------------------------------+
 
 
 What is netcat?

@@ -100,9 +100,9 @@ Moving on to `Samba`:
     Shellcodes: No Results
 
 
-Our search revealed five possible vulnerabilities. The first two look promising; one appears to be a security bypass, and the other is a command-execution vulnerability. The next two are specifically for ``Samba < 3.0.20``, meaning any version `prior to` our target version. These likely won't work for us. Finally, we've got no interest in the DoS exploit (see :ref:`don't be a dosser`).
+Our search revealed four possible vulnerabilities (one is repeated). The first two look promising; one appears to be a security bypass, and the other is a command-execution vulnerability. The next two are identical, and are specifically for ``Samba < 3.0.20``, meaning any version `prior to` our target version. These likely won't work for us. Finally, we've got no interest in the DoS exploit (remember, :ref:`don't be a dosser`).
 
-Two out of five ain't bad! We'll make a note of the two potential vulnerabilities, and move on.
+Two out of four ain't bad! We'll make a note of the two potential vulnerabilities, and move on.
 
 
 Debian 9 and Linux Kernel 4.9

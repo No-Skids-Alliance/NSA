@@ -3,25 +3,27 @@
 Kioptrix Level 1
 ================
 
-+------+-------+----------------------------+
-|**Difficulty**|Easy                        |
-+------+-------+----------------------------+
-|**Reference** |:ref:`arp-scan`             |
-|              |                            |
-|              |:ref:`enum4linux`           |
-|              |                            |
-|              |:ref:`Metasploit`           |
-|              |                            |
-|              |:ref:`netcat`               |
-|              |                            |
-|              |:ref:`nmap`                 |
-|              |                            |
-|              |:ref:`Python File Transfers`|
-|              |                            |
-|              |:ref:`SearchSploit`         |
-|              |                            |
-|              |:ref:`tee`                  |
-+------+-------+----------------------------+
++------+-------+--------------------------------------------+
+|**Difficulty**|Easy                                        |
++------+-------+--------------------------------------------+
+|**Reference** |:ref:`arp-scan`                             |
+|              |                                            |
+|              |:ref:`enum4linux`                           |
+|              |                                            |
+|              |:ref:`Metasploit`                           |
+|              |                                            |
+|              |:ref:`netcat`                               |
+|              |                                            |
+|              |:ref:`Netcat Reverse Shells <Netcat Shells>`|
+|              |                                            |
+|              |:ref:`nmap`                                 |
+|              |                                            |
+|              |:ref:`Python File Transfers`                |
+|              |                                            |
+|              |:ref:`SearchSploit`                         |
+|              |                                            |
+|              |:ref:`tee`                                  |
++------+-------+--------------------------------------------+
 
 
 Originally released in February of 2010, this `VulnHub`_ VM is aimed at novice hackers, and is designed to teach the basics. This VM can be downloaded from its `official VulnHub page <https://www.vulnhub.com/entry/kioptrix-level-1-1,22/>`_. Alternatively, the image can be downloaded from `this mega.nz mirror <https://mega.nz/file/VnIkXCpR#9i2noDIXOqhwByhQ_rPuvFlpFjkQ4H-CYeTBQuakbzE>`_.
