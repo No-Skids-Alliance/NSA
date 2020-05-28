@@ -46,6 +46,7 @@ To use `netcat`, simply type ``nc`` on the command line, along with whatever arg
 .. code-block:: none
 
     nc -vnlp 6666
+    nc google.com 80
     nc -vn -w 3 10.10.10.3 6200
     nc -nlp 6666 -e /bin/bash
 
@@ -74,15 +75,24 @@ Using the ``-l`` flag tells `netcat` to bind and listen on the port specified by
    On most OSes, ports 0 through 1023 are reserved for privileged services, and require administrative privileges before they can be bound. If you wish to use `netcat` on one of these ports, you'll need to do so as a privileged user (such as ``root``).
 
 
+``-n``: Skip DNS Name Resolution
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Example:** ``nc -n 10.10.10.3 21``
+
+When `netcat` establishes a connection to a remote system, it may attempt to perform DNS resolution for the provided host name. When providing an IP, you can skip this name resolution by using the ``-n`` flag.
+
+
 ``-v``: Verbose Output
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Example:** ``example of use``
+~~~~~~~~~~~~~~~~~~~~~~
+**Example:** ``nc -v 10.10.10.3 6200``
 
-Explanation of the functionality provided by this command-line argument.
+Typically, the only output `netcat` provides is the output sent from the network. The ``-v`` flag tells `netcat` to provide more verbose output, including data about the status of the connection. It can be helpful for understanding more about what's going on behind the scenes.
 
 
-``-v``: Verbose Output
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-**Example:** ``example of use``
+``-w``: Close Connection After Time-Out
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Example:** ``nc -v -w3 10.10.10.3 6200``
 
-Explanation of the functionality provided by this command-line argument.
+After establishing a connection, `netcat` will leave the connection open for as long as you allow it to run, or until the network closes the connection. This can be troublesome when you want `netcat` to close when data is no longer being sent.
+
+In order to close a `netcat` connection automatically, you can specify a time-out value using the ``-w`` flag, which tells `netcat` how long to wait before closing an inactive connection.
