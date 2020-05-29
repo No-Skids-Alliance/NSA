@@ -1,6 +1,6 @@
 .. _enum4linux:
 
-enum4linux: SMB & Samba Enumeration
+Enum4linux: SMB & Samba Enumeration
 ===================================
 
 .. index:: !enum4linux

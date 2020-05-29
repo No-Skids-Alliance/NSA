@@ -1,7 +1,7 @@
 .. _smbclient:
 
-smbclient
-=========
+smbclient: FTP-Like Client for SMB & Samba
+==========================================
 
 .. index:: !smbclient
 

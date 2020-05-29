@@ -1,6 +1,6 @@
 .. _tee:
 
-tee: Transparently Save Output from Tools
+Tee: Transparently Save Output from Tools
 =========================================
 
 .. index:: !tee

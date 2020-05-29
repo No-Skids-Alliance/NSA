@@ -1,6 +1,6 @@
 .. _nmap:
 
-nmap: the Network Mapper
+Nmap: the Network Mapper
 ========================
 
 .. index:: !nmap

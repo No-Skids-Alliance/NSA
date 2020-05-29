@@ -23,8 +23,9 @@ No Skids Allowed! A Pentester's Primer
 
 **CHANGE LOG**
 
-This version of `No Skids Allowed!` was published May 10th, 2020.
+This version of `No Skids Allowed!` was published May 28th, 2020.
 
+* **2020.05.28**: Revised layout and added walk-through of `Lame` from `HackTheBox`.
 * **2020.05.10**: Reorganized document in preparation of expansion. Added etiquette.
 * **2020.04.10**: Created website (with Tor support) and Keybase team.
 * **2020.04.07**: Finished walk-through of `Kioptrix Level 1` from `VulnHub`.

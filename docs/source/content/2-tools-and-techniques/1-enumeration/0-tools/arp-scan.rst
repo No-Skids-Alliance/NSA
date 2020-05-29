@@ -1,6 +1,6 @@
 .. _arp-scan:
 
-arp-scan: The ARP Scanner
+ARP-Scan: The ARP Scanner
 =========================
 
 .. index:: !arp-scan
