@@ -4,9 +4,9 @@ Capturing Flags
 ===============
 
 +-------------+--------------------------------+
-|**Reference**|:ref:`Metasploit`               |
+|**Reference**|:ref:`Metasploit <metasploit>`  |
 |             |                                |
-|             |:ref:`Meterpreter`              |
+|             |:ref:`Meterpreter <meterpreter>`|
 |             |                                |
 |             |:ref:`Windows Post-Exploitation`|
 +-------------+--------------------------------+
@@ -122,4 +122,4 @@ Excellent! We've now obtained the "root" flag, and can claim it on `HackTheBox`.
 
     At the end of a pentest, it's important to :ref:`cover your tracks`. By typing ``exit`` twice, we quit the command shell as well as the `Meterpreter` session, disconnecting from the machine, without taking the time to clean up after ourselves. This is typically considered bad form, as it could leave backdoors or exploits running on the target. In this case, however, the only exploit we uploaded to the system was `Meterpreter`, and if you take a second look at Figure 9, you'll see that `Meterpreter` automatically deleted the uploaded executable file before giving us a command prompt. Therefore, clean-up wasn't really necessary.
 
-Congratulations! You've successfully completed your first `HackTheBox` CTF challenge, and gained some valuable experience in the process. Feel free to continue reading through the rest of the chapters in order, or skip ahead to the :ref:`walkthroughs` section to see walk-throughs of other machines!
+Congratulations! You've successfully completed your first `HackTheBox` CTF challenge, and gained some valuable experience in the process. Great work!

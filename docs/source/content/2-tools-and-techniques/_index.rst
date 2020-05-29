@@ -9,8 +9,8 @@ The sections in this chapter contain a bounty of information about various tools
    :caption: Table of Contents
    :maxdepth: 4
 
+   0-general-purpose/_index.rst
    1-enumeration/_index.rst
    2-vulnerability-assessment/_index.rst
    3-exploitation/_index.rst
    4-post-exploitation/_index.rst
-   7-handy-tricks/_index.rst

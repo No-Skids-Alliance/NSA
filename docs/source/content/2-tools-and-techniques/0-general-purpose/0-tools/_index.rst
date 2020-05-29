@@ -1,7 +1,8 @@
-Techniques
-==========
+Tools
+=====
 
 .. toctree::
    :caption: Section Contents
 
-   windows.rst
+   netcat.rst
+   tee.rst

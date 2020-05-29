@@ -1,6 +1,6 @@
 .. _enum4linux:
 
-enum4linux: SMB & Samba Enumeration
+Enum4linux: SMB & Samba Enumeration
 ===================================
 
 .. index:: !enum4linux
@@ -11,11 +11,13 @@ enum4linux: SMB & Samba Enumeration
 |**Website**| https://github.com/portcullislabs/enum4linux |
 +-----------+----------------------------------------------+
 
-+---------+------------------------------------------------------+
-|                  **Reference  Walk-Throughs**                  |
-+=========+======================================================+
-|`VulnHub`|:ref:`Kioptrix Level 1 <Kioptrix Level 1 Enumeration>`|
-+---------+------------------------------------------------------+
++------------+------------------------------------------------------+
+|                   **Reference  Walk-Throughs**                    |
++============+======================================================+
+|`HackTheBox`|:ref:`Lame <Lame SMB Enum>`                           |
++------------+------------------------------------------------------+
+|`VulnHub`   |:ref:`Kioptrix Level 1 <Kioptrix Level 1 Enumeration>`|
++------------+------------------------------------------------------+
 
 
 

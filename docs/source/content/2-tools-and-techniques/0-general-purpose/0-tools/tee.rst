@@ -1,6 +1,6 @@
 .. _tee:
 
-tee: Transparently Save Output from Tools
+Tee: Transparently Save Output from Tools
 =========================================
 
 .. index:: !tee
@@ -9,11 +9,13 @@ tee: Transparently Save Output from Tools
 |**OS**     | All major sperating systems. |
 +-----------+------------------------------+
 
-+---------+------------------------------------------------------+
-|                  **Reference  Walk-Throughs**                  |
-+=========+======================================================+
-|`VulnHub`|:ref:`Kioptrix Level 1 <Kioptrix Level 1 Enumeration>`|
-+---------+------------------------------------------------------+
++------------+------------------------------------------------------+
+|                    **Reference  Walk-Throughs**                   |
++============+======================================================+
+|`HackTheBox`|:ref:`Lame <Lame Enum>`                               |
++------------+------------------------------------------------------+
+|`VulnHub`   |:ref:`Kioptrix Level 1 <Kioptrix Level 1 Enumeration>`|
++------------+------------------------------------------------------+
 
 
 

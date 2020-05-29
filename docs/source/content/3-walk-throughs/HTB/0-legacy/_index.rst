@@ -3,9 +3,20 @@
 Legacy
 ======
 
-In this section, we'll get started with a hands-on walk-through of a fairly easy `HackTheBox`_ target: `Legacy`.
++--------+-------+--------------------------------+
+|**Difficulty**  |Easy                            |
++--------+-------+--------------------------------+
+|**Reference**   |:ref:`Metasploit`               |
+|                |                                |
+|                |:ref:`Meterpreter`              |
+|                |                                |
+|                |:ref:`nmap`                     |
+|                |                                |
+|                |:ref:`searchsploit`             |
+|                |                                |
+|                |:ref:`Windows Post-Exploitation`|
++--------+-------+--------------------------------+
 
-.. _HackTheBox: https://hackthebox.eu/
 
 .. toctree::
    :caption: Chapter Contents

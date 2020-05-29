@@ -7,7 +7,7 @@ Vulnerability Assessment
    single: SearchSploit
 
 +-------------+-------------------+
-|**Reference**|:ref:`searchsploit`|
+|**Reference**|:ref:`SearchSploit`|
 +-------------+-------------------+
 
 Now that we've enumerated the OS and services on the target, it's time to see if we can find any vulnerabilities that exist in those services. For this, we'll use `SearchSploit`, working through the list of our identified software to reveal as many potential exploits as we can find. We'll work from the previously-established list, starting from the top to the bottom, so that we don't miss anything.

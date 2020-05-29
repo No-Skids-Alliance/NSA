@@ -9,7 +9,7 @@ Most popular search engines (such as `Google`_ and `DuckDuckGo`_) feature a robu
 .. _DuckDuckGo: https://duckduckgo.com/
 .. _Google Hacking Database: https://www.exploit-db.com/google-hacking-database
 
-Another important consideration when perfecting your search-engine skills is which search engine to use. Sites like Google and DuckDuckGo are excellent for finding all kinds of information, but at times it can be better to use smaller, more specialized search engines and databases. For example, when seeking to identify software vulnerabilities, you might turn to the `NIST National Vulnerability Database`_ or the `Exploit Database`_.
+Another important consideration when perfecting your search-engine skills is which search engine to use. Sites like `Google` and DuckDuckGo are excellent for finding all kinds of information, but at times it can be better to use smaller, more specialized search engines and databases. For example, when seeking to identify software vulnerabilities, you might turn to the `NIST National Vulnerability Database`_ or the `Exploit Database`_.
 
 .. _NIST National Vulnerability Database: https://nvd.nist.gov/
 .. _Exploit Database: https://www.exploit-db.com/

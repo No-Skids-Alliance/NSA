@@ -10,7 +10,8 @@ The following sections feature complete walk-through guides to various vulnerabl
 .. _VulnHub: https://www.vulnhub.com/
 
 .. toctree::
-   :caption: CTF Platforms
+   :caption: Walk-Throughs by Platform
+   :maxdepth: 3
 
    HTB/_index.rst
    VulnHub/_index.rst
