@@ -7,6 +7,7 @@ The following sections cover the basic knowledge and skills you'll need in order
 
 .. toctree::
    :caption: Chapter Contents
+   :maxdepth: 3
 
    1-introduction.rst
    2-ethics.rst

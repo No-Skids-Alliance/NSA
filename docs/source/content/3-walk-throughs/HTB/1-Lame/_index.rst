@@ -23,7 +23,8 @@ Lame
 
 
 .. toctree::
-   :caption: Chapter Contents
+   :caption: Walk-Through Contents
+   :maxdepth: 3
 
    0-enumeration.rst
    1-vuln-assessment.rst

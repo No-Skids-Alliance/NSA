@@ -32,5 +32,6 @@ In practice, you'll substitute the appropriate values, like so:
 
 .. toctree::
    :caption: Section Contents
+   :maxdepth: 1
 
    netcat.rst

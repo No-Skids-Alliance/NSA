@@ -10,5 +10,6 @@ Also, it is advised to use `Host-Only Networking` to communicate between your `K
 
 .. toctree::
    :caption: VulnHub Targets
+   :maxdepth: 1
 
    kioptrix_lv1/_index.rst
