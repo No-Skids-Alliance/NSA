@@ -7,5 +7,6 @@ Sometimes, during the course of a pentest or CTF event, you'll need to transfer 
 
 .. toctree::
    :caption: Section Contents
+   :maxdepth: 1
 
    python.rst

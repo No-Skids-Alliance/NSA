@@ -8,6 +8,7 @@ Enumeration
 The tools and techniques discussed in this chapter will help with the enumeration process, enabling you to gain as much information as possible about your targets, regardless of the current pentesting phase.
 
 .. toctree::
-   :caption: Chapter Contents
+   :caption: Section Contents
+   :maxdepth: 2
 
    0-tools/_index.rst

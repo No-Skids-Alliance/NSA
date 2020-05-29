@@ -35,7 +35,8 @@ Once you've downloaded the VM, extract it to a folder and import it into the VM 
 With this complete, go ahead and boot up `Kioptrix Level 1` and your `Kali` VM, and you're ready to begin!
 
 .. toctree::
-   :caption: Section Contents
+   :caption: Walk-Through Contents
+   :maxdepth: 3
 
    0-enumeration.rst
    1-vuln-ident.rst

@@ -14,6 +14,7 @@ HackTheBox
 
 .. toctree::
    :caption: HackTheBox Targets
+   :maxdepth: 1
 
    0-legacy/_index.rst
    1-Lame/_index.rst

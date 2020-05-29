@@ -11,7 +11,7 @@ The following sections feature complete walk-through guides to various vulnerabl
 
 .. toctree::
    :caption: Walk-Throughs by Platform
-   :maxdepth: 3
+   :maxdepth: 2
 
    HTB/_index.rst
    VulnHub/_index.rst
